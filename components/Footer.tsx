@@ -11,7 +11,7 @@ const socials = [
   { name: 'Instagram', href: 'https://instagram.com/zerolatencywebstr', icon: InstaIcon },
   { name: 'Facebook',  href: 'https://facebook.com/zerolatencywebstr',  icon: FbIcon },
   { name: 'TikTok',    href: 'https://tiktok.com/@zerolatencywebstr',   icon: TiktokIcon },
-  { name: 'YouTube',   href: 'https://youtube.com/@ZeroLatencyWebstr',  icon: YtIcon },
+  { name: 'YouTube',   href: 'https://youtube.com/@ZeroLatencyWebster',  icon: YtIcon },
 ];
 
 
