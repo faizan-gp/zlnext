@@ -6,6 +6,7 @@ import Container from './Container';
 import { BOOKING_URL } from '@/lib/navData';
 import { track } from '@/lib/ga';
 import { fbqTrack } from '@/lib/meta';
+import Counter from './Counter';
 
 const socials = [
   { name: 'Instagram', href: 'https://instagram.com/zerolatencywebstr', icon: InstaIcon },
@@ -136,6 +137,7 @@ export default function Footer() {
           {/* Bottom bar */}
           <div className="flex flex-col items-center justify-between gap-3 border-t border-white/10 py-6 text-xs text-gray-400 sm:flex-row">
             <p>© {year} Zero Latency Webster. All rights reserved.</p>
+            {<Counter />}
             <ul className="flex items-center gap-4">
               <li>
                 {/* <Link href="/terms" className="hover:text-gray-200">
