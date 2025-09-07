@@ -2,43 +2,44 @@
 
 import { useEffect, useState } from "react";
 
-// Extend Window interface to include resetCounter
 declare global {
   interface Window {
-    resetCounter?: () => void;
+    resetServerCounter?: () => Promise<void>;
   }
 }
 
 export default function Counter() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState<number | null>(null);
 
   useEffect(() => {
-    // Initialize counter
-    const storedValue = localStorage.getItem("visitCount");
-    const newValue = storedValue ? parseInt(storedValue, 10) + 1 : 1;
-    localStorage.setItem("visitCount", newValue.toString());
-    setCount(newValue);
+    // Increment on page load (server-side)
+    fetch("/api/visits", { method: "POST" })
+      .then((r) => r.json())
+      .then((d) => setCount(d.count))
+      .catch(() => setCount(0));
 
-    // Listen for localStorage changes
-    const handleStorage = (event: StorageEvent) => {
-      if (event.key === "visitCount" && event.newValue) {
-        setCount(parseInt(event.newValue, 10));
-      }
+    // Console command to reset
+    window.resetServerCounter = async () => {
+      const res = await fetch("/api/visits", { method: "DELETE" });
+      const data = await res.json();
+      setCount(data.count);
+      console.log("✅ Server counter reset to", data.count);
     };
-    window.addEventListener("storage", handleStorage);
 
-    // Expose reset function to console
-    window.resetCounter = () => {
-      localStorage.setItem("visitCount", "0");
-      setCount(0);
-      console.log("✅ Counter reset to 0");
-    };
+    // Optional polling to reflect updates from other users/tabs
+    const id = setInterval(async () => {
+      try {
+        const r = await fetch("/api/visits", { method: "GET", cache: "no-store" });
+        const d = await r.json();
+        setCount(d.count);
+      } catch {}
+    }, 5000);
 
     return () => {
-      window.removeEventListener("storage", handleStorage);
-      delete window.resetCounter;
+      clearInterval(id);
+      delete window.resetServerCounter;
     };
   }, []);
 
-  return <p className="">{count}</p>;
+  return <p className="text-[10px]">{count ?? "…"}</p>;
 }
