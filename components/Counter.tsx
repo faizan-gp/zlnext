@@ -1,14 +1,21 @@
-"use client"; 
+"use client";
 
 import { useEffect, useState } from "react";
 
+// Extend Window interface to include resetCounter
+declare global {
+  interface Window {
+    resetCounter?: () => void;
+  }
+}
+
 export default function Counter() {
-    const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0);
 
   useEffect(() => {
     // Initialize counter
-    let storedValue = localStorage.getItem("visitCount");
-    let newValue = storedValue ? parseInt(storedValue, 10) + 1 : 1;
+    const storedValue = localStorage.getItem("visitCount");
+    const newValue = storedValue ? parseInt(storedValue, 10) + 1 : 1;
     localStorage.setItem("visitCount", newValue.toString());
     setCount(newValue);
 
@@ -21,7 +28,7 @@ export default function Counter() {
     window.addEventListener("storage", handleStorage);
 
     // Expose reset function to console
-    (window as any).resetCounter = () => {
+    window.resetCounter = () => {
       localStorage.setItem("visitCount", "0");
       setCount(0);
       console.log("✅ Counter reset to 0");
@@ -29,11 +36,9 @@ export default function Counter() {
 
     return () => {
       window.removeEventListener("storage", handleStorage);
-      delete (window as any).resetCounter;
+      delete window.resetCounter;
     };
   }, []);
 
-  return (
-      <p className="">{count}</p>
-  );
+  return <p className="">{count}</p>;
 }
