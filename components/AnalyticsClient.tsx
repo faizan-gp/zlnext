@@ -13,9 +13,12 @@ export default function AnalyticsClient() {
     const qs = searchParams?.toString();
     const url = pathname + (qs ? `?${qs}` : '');
     const ref = document.referrer || undefined;
+    
 
     // Fire the GA4 pageview
+    track('zlwebster', { page_location: url });
     pageview(url);
+    
 
     // Enriched page_view
     const env = buildEnvParams(url, ref);
