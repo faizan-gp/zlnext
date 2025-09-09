@@ -10,8 +10,12 @@ export default function Page() {
         <Landing />
       </div>
       <Footer /> */}
+      {/* <HeaderV2 />
+      <CTA /> */}
       <HeaderV2 />
       <CTA />
+        
+
     </>
   )
 }

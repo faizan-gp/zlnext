@@ -4,6 +4,7 @@ import { track } from "@/lib/ga";
 import { fbqTrack } from "@/lib/meta";
 import { BOOKING_URL, EXPERIENCE_URL } from "@/lib/navData";
 import React, { useEffect } from "react";
+import YouTubeEmbed from "./YoutubeEmbed";
 
 export default function CTA() {
 
@@ -46,13 +47,15 @@ export default function CTA() {
         <h2 className="text-5xl font-montserrat font-black text-white lg:text-7xl">
           TRULY REAL
         </h2>
-        <p className="mt-8 mb-8 font-poppins text-lg text-white">
-          Think you can survive a VR apocalypse?
-        </p>
+        <div className="relative w-full overflow-hidden rounded-2xl border mt-10 border-white/10 bg-black/20">
+                      <div className="aspect-[16/9]">
+                        <YouTubeEmbed videoId="1_1-uJXPIRE" />
+                      </div>
+                    </div>
         <button
           onClick={handleClick}
           rel="noopener noreferrer"
-          className="btn text-xl p-8 btn-outline text-white rounded-3xl border-[#00bcd4]"
+          className="btn text-xl p-8 mt-10 btn-outline text-white rounded-3xl border-[#00bcd4]"
         >
           TAKE THE CHALLENGE
         </button>
