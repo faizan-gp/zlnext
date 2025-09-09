@@ -43,16 +43,16 @@ export default function CTA() {
         <h1 className="text-4xl font-poppins text-stroke-blue font-black lg:text-6xl">
           NOT JUST VIRTUAL
         </h1>
-        <h2 className="text-5xl font-montserrat font-black lg:text-7xl">
+        <h2 className="text-5xl font-montserrat font-black text-white lg:text-7xl">
           TRULY REAL
         </h2>
-        <p className="mt-8 mb-8 font-poppins text-lg text-gray-200">
+        <p className="mt-8 mb-8 font-poppins text-lg text-white">
           Think you can survive a VR apocalypse?
         </p>
         <button
           onClick={handleClick}
           rel="noopener noreferrer"
-          className="btn text-xl p-8 btn-outline rounded-3xl border-[#00bcd4]"
+          className="btn text-xl p-8 btn-outline text-white rounded-3xl border-[#00bcd4]"
         >
           TAKE THE CHALLENGE
         </button>
