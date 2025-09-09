@@ -41,10 +41,10 @@ export default function CTA() {
       <div className="pointer-events-none absolute inset-0 bg-black/50" aria-hidden="true" />
 
       <div className="relative z-10 max-w-2xl px-6">
-        <h1 className="text-4xl font-poppins text-stroke-blue font-black lg:text-6xl">
+        <h1 className="text-4xl font-poppins text-stroke-blue font-black sm:text-6xl">
           NOT JUST VIRTUAL
         </h1>
-        <h2 className="text-5xl font-montserrat font-black text-white lg:text-7xl">
+        <h2 className="text-5xl font-montserrat font-black text-white sm:text-7xl">
           TRULY REAL
         </h2>
         <div className="relative w-full overflow-hidden rounded-2xl border mt-10 border-white/10 bg-black/20">
