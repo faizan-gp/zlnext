@@ -23,3 +23,5 @@ export const MAIN_LINKS = [
 ]
 
 export const BOOKING_URL = 'https://booking.zerolatencyvr.com/en/book-now/webster'
+
+export const EXPERIENCE_URL = 'https://zerolatencyvr.com/en/webster?utm_source=zlwebster&utm_medium=website&utm_campaign=CDCCOPY'

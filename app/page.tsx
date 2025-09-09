@@ -1,16 +1,17 @@
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import Landing from '@/components/Landing'
+import CTA from '@/components/Cta'
+import HeaderV2 from '@/components/HeaderV2'
 
 
 export default function Page() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <div className='px-5 lg:px-20 '>
         <Landing />
       </div>
-      <Footer />
+      <Footer /> */}
+      <HeaderV2 />
+      <CTA />
     </>
   )
 }
