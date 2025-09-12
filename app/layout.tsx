@@ -5,9 +5,11 @@ import Script from "next/script";
 import { montserrat, poppins } from './fonts'
 import HeaderV3 from "@/components/HeaderV3";
 import Footer from "@/components/Footer";
+import { pageview, track } from "@/lib/ga";
+import AnalyticsClient from "@/components/AnalyticsClient";
 
-// const GA_ID = process.env.NEXT_PUBLIC_GA_ID
-// const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID
+const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID
 
  const siteUrl = "https://zlwebster.com";
 
@@ -119,8 +121,28 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        {GA_ID && (
+          <>
+            <Script
+              id="ga4"
+              src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="ga4-init" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_ID}', { send_page_view: false });
+              `}
+            </Script>
+          </>
+        )}
+      </head>
       <body className={`${poppins.variable} ${montserrat.variable} antialiased`}>
         <a href="#main-content" className="sr-only focus:not-sr-only">Skip to content</a>
+        <AnalyticsClient />
         <HeaderV3 />
         <Script id="nav-schema-ld-json" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(navSchema) }} />
         <main id="main-content" role="main">{children}</main>
