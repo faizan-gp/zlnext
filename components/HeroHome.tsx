@@ -7,6 +7,8 @@ import Party from "../public/party.jpg";
 import FAQ from "./FAQ";
 import Review from "./Reviews";
 import InteractiveVideoPlayer from "./InteractiveVideoPlayer";
+import Link from "next/link";
+
 
 export type FaqItem = {
     q: string;
@@ -122,13 +124,13 @@ export default function HeroHome({ faqs }: FaqProps) {
                     <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
                         {[
                             // Added 'href' to each object for navigation
-                            { title: "Zombie Survival", desc: "Heart-pounding action as you fight your way through hordes of the undead.", img: "./Outbreak-Digital-Square.jpg", href: zombieRandom() },
-                            { title: "Sci-Fi Adventures", desc: "Explore futuristic worlds filled with rogue AI, robots, and alien invasions.", img: "./Sci-fi.jpg", href: sciFiRandom() },
-                            { title: "PvP Esports Battles", desc: "Go head-to-head against friends in team-based shooter challenges.", img: "./pvp.jpg", href: "/games/sol-raiders" },
-                            { title: "Family-Friendly Worlds", desc: "Stunning, non-combat experiences perfect for first-timers and all ages.", img: "./Family-Adventure.jpg", href: "/games/engineerium" },
+                            { title: "Zombie Survival", desc: "Heart-pounding action as you fight your way through hordes of the undead.", img: "/Outbreak-Digital-Square.jpg", href: zombieRandom() },
+                            { title: "Sci-Fi Adventures", desc: "Explore futuristic worlds filled with rogue AI, robots, and alien invasions.", img: "/Sci-fi.jpg", href: sciFiRandom() },
+                            { title: "PvP Esports Battles", desc: "Go head-to-head against friends in team-based shooter challenges.", img: "/pvp.jpg", href: "/games/sol-raiders" },
+                            { title: "Family-Friendly Worlds", desc: "Stunning, non-combat experiences perfect for first-timers and all ages.", img: "/Family-Adventure.jpg", href: "/games/engineerium" },
                         ].map(exp => (
                             // Wrap the card in an anchor tag to make it clickable
-                            <a
+                            <Link
                                 href={exp.href}
                                 key={exp.title}
                                 // The `group` class is now on the anchor tag to control hover effects
@@ -142,6 +144,8 @@ export default function HeroHome({ faqs }: FaqProps) {
                                     <Image
                                         src={exp.img}
                                         alt={exp.title}
+                                        fill
+                                        priority={false}
                                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 md:group-hover:scale-110"
                                     />
 
@@ -167,7 +171,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                                         </div>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         ))}
                     </div>
                     <div className="text-center mt-16">
