@@ -2,14 +2,13 @@
 
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
-import { Users, Clock, ShieldAlert, Target, HeartPulse, Bomb, RefreshCw, UserX, Rocket, BrainCircuit, ScanSearch } from "lucide-react";
+import { Users, ShieldAlert, Rocket, BrainCircuit } from "lucide-react";
 import BookGameButton from "@/components/BookBtn";
 
 // Metadata remains the same
 export const metadata: Metadata = {
     title: "Space Marine VR – Warhammer 40,000 Experience in Houston | Zero Latency",
-    description: "See what it's like to battle Tyranid swarms in the Hive City of Fervastium. This image-rich guide shows you the weapons, tactics, and worlds of our most intense free-roam VR game.",
+    description: "See what it&apos;s like to battle Tyranid swarms in the Hive City of Fervastium. This image-rich guide shows you the weapons, tactics, and worlds of our most intense free-roam VR game.",
     // ... other metadata fields
 };
 
@@ -111,7 +110,7 @@ export default function SpaceMarinePage() {
                         </div>
                         <div className="grid md:grid-cols-3 gap-8">
                             <VisualFeatureCard imgSrc="/become-a-marine.jpg" imgAlt="A close-up of a powerful Space Marine in full battle armor." title="BECOME a Space Marine">
-                                You are a genetically enhanced super-soldier, humanity's last line of defense.
+                                You are a genetically enhanced super-soldier, humanity&apos;s last line of defense.
                             </VisualFeatureCard>
                             <VisualFeatureCard imgSrc="/explore-hive-city.jpg" imgAlt="The sprawling, gothic architecture of Hive City Fervastium at dusk." title="EXPLORE Hive City">
                                 Your mission takes you deep into Fervastium, a war-torn, vertical metropolis.
@@ -156,7 +155,7 @@ export default function SpaceMarinePage() {
                             <VisualFeatureCard imgSrc="/deploy-tactics.png" imgAlt="An in-game screenshot of a stun grenade exploding amidst a horde of Tyranids." title="Deploy Tactics">
                                 Use Stun Grenades to halt enemy assaults and create an opening for your team to seize victory.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/reset-rally-rise.png" imgAlt="A 'Mission Failed' screen from the game, showing the squad being overrun." title="Reset, Rally, Rise">
+                            <VisualFeatureCard imgSrc="/reset-rally-rise.png" imgAlt="A &apos;Mission Failed&apos; screen from the game, showing the squad being overrun." title="Reset, Rally, Rise">
                                 If the whole team falls, the level resets. Regroup and learn from your mistakes to try again.
                             </VisualFeatureCard>
                             <VisualFeatureCard imgSrc="/stay-sharp.png" imgAlt="A first-person view in the game showing a friendly fire warning indicator." title="Stay Sharp">

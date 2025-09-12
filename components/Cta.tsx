@@ -2,7 +2,7 @@
 
 import { track } from "@/lib/ga";
 import { fbqTrack } from "@/lib/meta";
-import { BOOKING_URL, EXPERIENCE_URL } from "@/lib/navData";
+import {EXPERIENCE_URL } from "@/lib/navData";
 import React, { useEffect } from "react";
 import YouTubeEmbed from "./YoutubeEmbed";
 

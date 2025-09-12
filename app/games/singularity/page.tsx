@@ -3,7 +3,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Users, ShieldAlert, BrainCircuit, Target, Wind, VenetianMask, Sprout, ShieldQuestion, Zap, Shield, Sparkles, Swords, Orbit } from "lucide-react";
+import { BrainCircuit, Shield, Sparkles, Swords, Orbit } from "lucide-react";
 import BookGameButton from "@/components/BookBtn";
 
 export const metadata: Metadata = {
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     },
     openGraph: {
         title: "Singularity – Battle Robots & AI in VR Space Station | Zero Latency Houston",
-        description: "Your team must investigate a military space station that's gone dark. But you're not alone. A rogue AI is in control.",
+        description: "Your team must investigate a military space station that&apos;s gone dark. But you&apos;re not alone. A rogue AI is in control.",
         url: "https://zlwebster.com/games/singularity",
         type: "website",
         images: [
@@ -120,10 +120,10 @@ export default function SingularityPage() {
                             <div className="prose prose-invert max-w-none">
                                 <h2 className="text-4xl font-poppins font-bold text-white">MAN VS <span className="text-stroke-blue">MACHINE</span></h2>
                                 <p className="mt-4 text-lg text-gray-300">
-                                    In Singularity, you and your team are sent to investigate a secret military space station that’s gone dark. As soon as you board, you realize you're not alone. An AI has taken over, and it has an army of killer robots at its command.
+                                    In Singularity, you and your team are sent to investigate a secret military space station that’s gone dark. As soon as you board, you realize you&apos;re not alone. An AI has taken over, and it has an army of killer robots at its command.
                                 </p>
                                 <p className="mt-4 text-lg text-gray-300">
-                                    When the base is infiltrated and the power is cut, you'll have seconds to strategise. Brace yourself to make calls, or take orders from your team — for the sake of everyone's survival.
+                                    When the base is infiltrated and the power is cut, you&apos;ll have seconds to strategise. Brace yourself to make calls, or take orders from your team — for the sake of everyone&apos;s survival.
                                 </p>
                             </div>
                         </div>

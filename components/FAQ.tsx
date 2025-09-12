@@ -2,9 +2,6 @@
 import { useState } from 'react';
 import { ChevronDown } from 'lucide-react';
 import { FaqProps } from './HeroHome';
-import Image from 'next/image';
-
-
 
 
 export default function FAQ({ faqs }: FaqProps) {

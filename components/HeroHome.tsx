@@ -6,7 +6,6 @@ import Corporate from "../public/corporate.jpg";
 import Party from "../public/party.jpg";
 import FAQ from "./FAQ";
 import Review from "./Reviews";
-import Link from "next/link";
 import InteractiveVideoPlayer from "./InteractiveVideoPlayer";
 
 export type FaqItem = {
@@ -19,7 +18,7 @@ export type FaqProps = {
 };
 
 function zombieRandom(){
-    var zombieList = [
+    const zombieList = [
         "/games/outbreak",
         "/games/undead-arena",
     ];
@@ -27,7 +26,7 @@ function zombieRandom(){
 }
 
 function sciFiRandom(){
-    var sciFiList = [
+    const sciFiList = [
         "/games/singularity",
         "/games/space-marine-vr",
     ];
@@ -70,7 +69,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                 <section className="py-16 md:py-24">
                     <div className="grid md:grid-cols-2 gap-12 items-center">
                         <div className="text-center md:text-left">
-                            <h2 className="text-3xl font-poppins text-white font-black sm:text-4xl">Experience the World's Best Free-Roam VR</h2>
+                            <h2 className="text-3xl font-poppins text-white font-black sm:text-4xl">Experience the World&apos;s Best Free-Roam VR</h2>
                             <p className="mt-4 text-lg leading-relaxed">
                                 Welcome to Zero Latency Webster, where Houston comes to play in limitless virtual worlds. Step inside with friends, coworkers, or family and experience action-packed VR games that blend cutting-edge technology with real movement. From zombie battles to sci-fi adventures and competitive PvP esports, every session is a rush of adrenaline you can’t find anywhere else.
                             </p>
@@ -140,7 +139,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                                     className="relative aspect-video rounded-xl overflow-hidden shadow-lg border border-gray-800/50"
                                 >
                                     {/* Background Image: Enhanced with desktop-only zoom-on-hover effect */}
-                                    <img
+                                    <Image
                                         src={exp.img}
                                         alt={exp.title}
                                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 md:group-hover:scale-110"
@@ -214,7 +213,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                                 </h2>
                             </div>
                             <p className="mt-6 text-lg text-gray-300 leading-relaxed">
-                                Zero Latency Webster isn't just for gamers. It's one of the most unique and unforgettable venues in Houston for:
+                                Zero Latency Webster isn&apos;t just for gamers. It&apos;s one of the most unique and unforgettable venues in Houston for:
                             </p>
                             <div className="mt-8 space-y-4 text-left inline-block">
                                 {[
@@ -239,7 +238,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                 {/* Gift Card Section */}
                 <section className="bg-gray-800/50 rounded-2xl my-24 p-8 md:p-16 border border-cyan-500/30 text-center shadow-2xl">
                     <Gift size={60} className="mx-auto text-cyan-400" />
-                    <h2 className="text-4xl md:text-5xl font-poppins text-white font-black mt-6"><span className="text-stroke-blue">Gift an Experience</span> They'll Never Forget</h2>
+                    <h2 className="text-4xl md:text-5xl font-poppins text-white font-black mt-6"><span className="text-stroke-blue">Gift an Experience</span> They&apos;ll Never Forget</h2>
                     <p className="mt-4 max-w-xl mx-auto text-lg">Looking for a unique gift idea? Our VR gift cards are perfect for anyone who craves a new kind of adventure.</p>
                     <BookGameButton label="Buy Gift Cards" />
                 </section>
@@ -253,7 +252,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                 <section className="pb-24 pt-12 text-center">
                     <h2 className="text-4xl font-poppins text-white font-black sm:text-5xl">Ready to Experience the <span className="text-stroke-blue">Ultimate VR Adventure?</span></h2>
                     <p className="mt-4 max-w-3xl mx-auto text-lg leading-relaxed">
-                        Book your session at Zero Latency Webster today and discover why we're the top choice for free-roam VR in the Houston area. Gather your crew and step into a world without limits!
+                        Book your session at Zero Latency Webster today and discover why we&apos;re the top choice for free-roam VR in the Houston area. Gather your crew and step into a world without limits!
                     </p>
                     <BookGameButton label="BOOK A GAME NOW" />
                     <Image

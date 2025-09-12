@@ -3,7 +3,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { Users, ShieldAlert, BrainCircuit, Target, Wind, VenetianMask, Sprout, ShieldQuestion, Biohazard, Crosshair, Rocket } from "lucide-react";
+import { Users, Biohazard, Crosshair, Rocket } from "lucide-react";
 import BookGameButton from "@/components/BookBtn";
 
 export const metadata: Metadata = {
@@ -127,7 +127,7 @@ export default function OutbreakPage() {
                                     You and your team are guarding a research facility with the only cure for an insidious zombie virus.
                                 </VisualFeatureCard>
                                 <VisualFeatureCard imgSrc="/outbreak-mercenaries.jpg" imgAlt="Armed mercenaries moving through a dark corridor." title="FIGHT THE LIVING">
-                                    The undead aren't your only threat. Ruthless mercenaries crave the cure and will stop at nothing to get it.
+                                    The undead aren&apos;t your only threat. Ruthless mercenaries crave the cure and will stop at nothing to get it.
                                 </VisualFeatureCard>
                             </div>
                         </div>
@@ -145,7 +145,7 @@ export default function OutbreakPage() {
                             <div className="prose prose-invert max-w-none">
                                 <h3 className="text-3xl font-poppins font-bold text-white">ESCAPE THE <span className="text-stroke-blue">SEWERS</span></h3>
                                 <p className="mt-4 text-lg text-gray-300">
-                                    The only thing worse than the grimy depths of a city's sewer system is surviving it with an endless torrent of vicious zombies. Protect your friends, or fend for yourself — just get out of there alive!
+                                    The only thing worse than the grimy depths of a city&apos;s sewer system is surviving it with an endless torrent of vicious zombies. Protect your friends, or fend for yourself — just get out of there alive!
                                 </p>
                             </div>
                         </div>
@@ -177,16 +177,16 @@ export default function OutbreakPage() {
                         </div>
                         <div className="grid md:grid-cols-2 gap-8">
                             <VisualFeatureCard imgSrc="/outbreak-team.jpg" imgAlt="A team of players in VR gear fighting zombies back-to-back." title="Squad Up (1-8 Players)">
-                                Form a squad of up to 8 survivors. You'll need every last one of you to make it through this zombie survival game.
+                                Form a squad of up to 8 survivors. You&apos;ll need every last one of you to make it through this zombie survival game.
                             </VisualFeatureCard>
                             <VisualFeatureCard imgSrc="/outbreak-zombies.png" imgAlt="A variety of different zombie types, including fast and large ones." title="Face the Horde">
                                 Battle relentless hordes of lifelike, flesh-hungry zombies, including some nasty surprises that will get your adrenaline pumping.
                             </VisualFeatureCard>
                             <VisualFeatureCard imgSrc="/outbreak-weapons.jpg" imgAlt="A close-up of the different virtual reality rifles and shotguns available in the game." title="Advanced Arsenal">
-                                Gear up with a powerful arsenal of weapons. From assault rifles to shotguns, you'll need the right tool for the job.
+                                Gear up with a powerful arsenal of weapons. From assault rifles to shotguns, you&apos;ll need the right tool for the job.
                             </VisualFeatureCard>
                             <VisualFeatureCard imgSrc="/outbreak-immersion.jpg" imgAlt="A player wearing a VR headset looking terrified and amazed." title="Total Immersion">
-                                With realistic graphics and surround sound, you'll hear the eerie groans of the undead and feel like they're truly closing in.
+                                With realistic graphics and surround sound, you&apos;ll hear the eerie groans of the undead and feel like they&apos;re truly closing in.
                             </VisualFeatureCard>
                         </div>
                     </div>

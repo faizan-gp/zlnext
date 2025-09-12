@@ -1,22 +1,9 @@
 'use client';
 
 import Link from 'next/link'
-import { BOOKING_URL } from '@/lib/navData'
 import Image from 'next/image'
-import { track } from '@/lib/ga';
-import { fbqTrack } from '@/lib/meta';
 
 export default function HeaderV2() {
-
-  const handleClick = () => {
-    // Fire GA4 event
-    track('zl_bn_header', { link_url: BOOKING_URL });
-    // Fire Meta Pixel event
-    fbqTrack('zl_bn_header', { value: 0, currency: 'USD' });
-    setTimeout(() => {
-      window.open(BOOKING_URL, '_blank', 'noopener,noreferrer');
-    }, 200);
-  };
 
 
   return (

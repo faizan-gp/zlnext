@@ -3,11 +3,11 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { MapPin, Clock, Phone, Mail, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
+import { MapPin, Clock, Phone, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 export const metadata: Metadata = {
     title: "Contact Us – Zero Latency VR Houston | Location, Hours & Booking Info",
-    description: "Find Zero Latency Houston's location, operating hours, and contact details. Reach out to us for questions about private events, parties, or your booking. Get in touch with our team in Webster, TX today!",
+    description: "Find Zero Latency Houston&apos;s location, operating hours, and contact details. Reach out to us for questions about private events, parties, or your booking. Get in touch with our team in Webster, TX today!",
     alternates: {
         canonical: "https://zlwebster.com/contact",
     },
@@ -27,7 +27,7 @@ export default function ContactPage() {
                 <section className="relative min-h-[60vh] flex items-center justify-center text-center py-20">
                     <div className="absolute inset-0 z-0">
                         <Image
-                            src="/contact-hero-bg.jpg" // An image of the venue's interior/lobby
+                            src="/contact-hero-bg.jpg" // An image of the venue&apos;s interior/lobby
                             alt="The futuristic lobby of the Zero Latency Houston VR arena."
                             layout="fill"
                             objectFit="cover"
@@ -40,7 +40,7 @@ export default function ContactPage() {
                             CONNECT WITH <span className="text-stroke-blue">US</span>
                         </h1>
                         <p className="mt-6 text-xl md:text-2xl text-gray-200 leading-relaxed font-light">
-                            Have a question, need to book an event, or just want to say hello? We're here to help.
+                            Have a question, need to book an event, or just want to say hello? We&apos;re here to help.
                         </p>
                     </div>
                 </section>

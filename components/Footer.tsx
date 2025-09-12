@@ -7,7 +7,6 @@ import { BOOKING_URL } from '@/lib/navData';
 import { track } from '@/lib/ga';
 import { fbqTrack } from '@/lib/meta';
 import Counter from './Counter';
-import Image from 'next/image';
 
 const socials = [
   { name: 'Instagram', href: 'https://instagram.com/zerolatencywebstr', icon: InstaIcon },

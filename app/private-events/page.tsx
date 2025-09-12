@@ -4,7 +4,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { PartyPopper, Briefcase, UserCheck, CheckCircle } from "lucide-react";
-import BookGameButton from "@/components/BookBtn";
 
 export const metadata: Metadata = {
     title: "Private Events at Zero Latency Webster – Immersive VR Parties in Houston",
@@ -138,7 +137,7 @@ export default function PrivateEventsPage() {
                                        Need an adrenaline-pumping send-off for the groom-to-be? Drop into intense virtual worlds for a bachelor party he’ll never forget.
                                     </p>
                                     <ul className="mt-6 space-y-4 text-lg">
-                                        <FeatureListItem>High-adrenaline fun that's more memorable than just a night at the bar.</FeatureListItem>
+                                        <FeatureListItem>High-adrenaline fun that&apos;s more memorable than just a night at the bar.</FeatureListItem>
                                         <FeatureListItem>Accessible and fun for all skill levels, from seasoned gamers to newcomers.</FeatureListItem>
                                         <FeatureListItem>The perfect kick-off to a night out in Webster or Houston.</FeatureListItem>
                                     </ul>

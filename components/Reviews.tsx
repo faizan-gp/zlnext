@@ -1,9 +1,7 @@
 'use client';
 
-import Link from 'next/link'
-
 import Image from 'next/image'
-import { ArrowRight, ChevronLeft, ChevronRight, Quote, Star, Users } from 'lucide-react';
+import { ArrowRight, Quote, Star } from 'lucide-react';
 
 // Inside your HeroHome component function
 const testimonials = [
@@ -119,7 +117,7 @@ export default function Review() {
                                             </div>
                                             {/* MODIFIED LINE BELOW */}
                                             <p className={`text-lg italic text-gray-100 mb-6 z-10 overflow-y-auto pr-2 ${testimonial.type === 'text' ? 'h-80' : 'h-40'}`}>
-                                                "{testimonial.quote}"
+                                                &quot;{testimonial.quote}&quot;
                                             </p>
                                             <div className="flex items-center gap-3 z-10 mt-auto">
                                                 <div className="w-10 h-10 bg-cyan-900 rounded-full flex items-center justify-center font-bold text-cyan-200">

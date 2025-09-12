@@ -2,7 +2,6 @@
 
 import type { Metadata } from "next";
 import Image from "next/image";
-import Link from "next/link";
 import { CheckCircle, Ticket, LogIn, Headset, Gamepad2, Trophy, UserCheck } from "lucide-react";
 import BookGameButton from "@/components/BookBtn"; // Assuming this is the path to your button
 import InteractiveVideoPlayer from "@/components/InteractiveVideoPlayer";

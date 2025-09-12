@@ -202,7 +202,7 @@ export const enrichWithClientHints = async (
 ): Promise<Partial<EnvParams>> => {
   const uad = navigator.userAgentData;
   if (!uad?.getHighEntropyValues) return {};
-
+  console.log(base);
   try {
     const hints = await uad.getHighEntropyValues(['platform', 'platformVersion', 'uaFullVersion']);
     const updates: Partial<EnvParams> = {};

@@ -6,8 +6,8 @@ import { montserrat, poppins } from './fonts'
 import HeaderV3 from "@/components/HeaderV3";
 import Footer from "@/components/Footer";
 
-const GA_ID = process.env.NEXT_PUBLIC_GA_ID
-const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID
+// const GA_ID = process.env.NEXT_PUBLIC_GA_ID
+// const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID
 
  const siteUrl = "https://zlwebster.com";
 
@@ -122,7 +122,7 @@ export default function RootLayout({
       <body className={`${poppins.variable} ${montserrat.variable} antialiased`}>
         <a href="#main-content" className="sr-only focus:not-sr-only">Skip to content</a>
         <HeaderV3 />
-        <Script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(navSchema) }} />
+        <Script id="nav-schema-ld-json" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(navSchema) }} />
         <main id="main-content" role="main">{children}</main>
         <Footer />
       </body>

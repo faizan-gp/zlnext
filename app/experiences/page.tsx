@@ -83,7 +83,7 @@ export default function ExperiencesPage() {
                 <section className="relative h-[60vh] flex items-center justify-center text-center">
                     <Image
                         src="/experiences-hero.jpg" // A dynamic collage or wide-angle shot of the arena
-                        alt="Players immersed in a virtual reality experience at Zero Latency Houston's arena."
+                        alt="Players immersed in a virtual reality experience at Zero Latency Houston&apos;s arena."
                         layout="fill"
                         objectFit="cover"
                         className="opacity-25"
@@ -124,7 +124,7 @@ export default function ExperiencesPage() {
                         <div className="bg-gray-800/50 p-8 rounded-xl border border-gray-700">
                             <BrainCircuit size={40} className="mx-auto text-cyan-400" />
                             <h3 className="text-2xl font-bold font-poppins mt-4">Multi-Sensory Immersion</h3>
-                            <p className="mt-2 text-gray-300">Realistic sight and sound, combined with physical movement, makes you feel like you're truly there.</p>
+                            <p className="mt-2 text-gray-300">Realistic sight and sound, combined with physical movement, makes you feel like you&apos;re truly there.</p>
                         </div>
                         <div className="bg-gray-800/50 p-8 rounded-xl border border-gray-700">
                             <Users size={40} className="mx-auto text-cyan-400" />

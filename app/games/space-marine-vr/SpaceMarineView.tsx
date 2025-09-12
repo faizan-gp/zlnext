@@ -79,7 +79,7 @@ export default function SpaceMarineView() {
                         UNLEASH YOUR <span className="text-stroke-blue">INNER WARRIOR</span>
                     </h2>
                     <p className="mt-8 text-lg text-gray-300 leading-relaxed">
-                        The enemy is relentless. There is no peace. No respite. No forgiveness. Using a wide range of iconic weapons from the Warhammer 40,000 universe, you'll fight off voracious swarms of Tyranids in epic skirmishes against overwhelming odds.
+                        The enemy is relentless. There is no peace. No respite. No forgiveness. Using a wide range of iconic weapons from the Warhammer 40,000 universe, you&apos;ll fight off voracious swarms of Tyranids in epic skirmishes against overwhelming odds.
                     </p>
                 </div>
             </div>
