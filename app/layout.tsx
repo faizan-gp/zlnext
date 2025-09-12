@@ -5,15 +5,15 @@ import Script from "next/script";
 import { montserrat, poppins } from './fonts'
 import HeaderV3 from "@/components/HeaderV3";
 import Footer from "@/components/Footer";
-import { pageview, track } from "@/lib/ga";
 import AnalyticsClient from "@/components/AnalyticsClient";
+import { Suspense } from "react";
 
 const GA_ID = process.env.NEXT_PUBLIC_GA_ID
-const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID
+// const META_PIXEL_ID = process.env.NEXT_PUBLIC_META_PIXEL_ID
 
- const siteUrl = "https://zlwebster.com";
+const siteUrl = "https://zlwebster.com";
 
- 
+
 export const metadata: Metadata = {
   title: {
     default: "Zero Latency VR Webster | Virtual Reality Gaming Arena in Greater Houston, Texas",
@@ -142,7 +142,8 @@ export default function RootLayout({
       </head>
       <body className={`${poppins.variable} ${montserrat.variable} antialiased`}>
         <a href="#main-content" className="sr-only focus:not-sr-only">Skip to content</a>
-        <AnalyticsClient />
+        <Suspense><AnalyticsClient /></Suspense>
+
         <HeaderV3 />
         <Script id="nav-schema-ld-json" type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(navSchema) }} />
         <main id="main-content" role="main">{children}</main>

@@ -20,10 +20,10 @@ export default function Counter() {
 
     // Console command to reset
     window.resetServerCounter = async () => {
-      const res = await fetch("/api/visits", { method: "DELETE" });
+      const res = await fetch("/api/visits", { method: "GET" });
       const data = await res.json();
       setCount(data.count);
-      console.log("✅ Server counter reset to", data.count);
+      console.log("✅ Server Count: ", data.count);
     };
 
     // Optional polling to reflect updates from other users/tabs
