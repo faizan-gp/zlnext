@@ -124,9 +124,9 @@ export default function RootLayout({
             <Script
               id="ga4"
               src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-              strategy="afterInteractive"
+              strategy="lazyOnload"
             />
-            <Script id="ga4-init" strategy="afterInteractive">
+            <Script id="ga4-init" strategy="lazyOnload">
               {`
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
@@ -140,7 +140,7 @@ export default function RootLayout({
         {/* Meta Pixel */}
         {META_PIXEL_ID && (
           <>
-            <Script id="fb-pixel" strategy="afterInteractive">
+            <Script id="fb-pixel" strategy="lazyOnload">
               {`
                 !function(f,b,e,v,n,t,s)
                 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
