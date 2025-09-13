@@ -86,7 +86,7 @@ export default function ContactPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-16 items-start">
                             {/* Contact Form */}
-                            <div>
+                            {/* <div>
                                 <h2 className="text-4xl font-poppins text-white font-bold mb-6">Send Us a Message</h2>
                                 <form action="#" method="POST" className="space-y-6">
                                     <div>
@@ -114,7 +114,7 @@ export default function ContactPage() {
                                         Submit Message
                                     </button>
                                 </form>
-                            </div>
+                            </div> */}
                             {/* Map */}
                             <div className="h-full">
                                 <h2 className="text-4xl font-poppins text-white font-bold mb-6">Find Us Here</h2>
@@ -141,18 +141,15 @@ export default function ContactPage() {
                         <h2 className="text-3xl font-poppins text-white font-bold">Follow the Adventure</h2>
                         <p className="mt-4 text-gray-400 max-w-xl mx-auto">Stay up to date with our latest games, special events, and promotions by following us on social media.</p>
                         <div className="mt-8 flex justify-center space-x-6">
-                            <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Facebook">
+                            <a href="https://facebook.com/zerolatencywebstr" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Facebook">
                                 <Facebook size={28} />
-                            </Link>
-                            <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Instagram">
+                            </a>
+                            <a href="https://instagram.com/zerolatencywebstr" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Instagram">
                                 <Instagram size={28} />
-                            </Link>
-                            <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="Twitter">
-                                <Twitter size={28} />
-                            </Link>
-                            <Link href="#" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="YouTube">
+                            </a>
+                            <a href="https://www.youtube.com/@ZeroLatencyWebster" className="text-gray-400 hover:text-cyan-400 transition-colors" aria-label="YouTube">
                                 <Youtube size={28} />
-                            </Link>
+                            </a>
                         </div>
                     </div>
                 </section>
