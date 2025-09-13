@@ -2,29 +2,29 @@
 
 import { BOOKING_URL } from "@/lib/navData";
 import { track } from "@/lib/ga";
+import Link from "next/link";
 
-export default function BookGameButton({
+export default function LinkButton({
   className = "",
   label = "BOOK A GAME",
   source = "header",
-  link = BOOKING_URL
+  route = "/"
 }: {
   className?: string;
   label?: string;
   source?: string; // where the CTA lives (header/hero/footer)
-  link?: string;
+  route?: string;
 }) {
   function handleClick() {
     try {
       track?.("cta_click", { source, label });
     } catch {}
-    window.open(link == BOOKING_URL ? BOOKING_URL : link, "_blank", "noopener,noreferrer");
+    window.open(BOOKING_URL, "_blank", "noopener,noreferrer");
   }
 
   return (
-    <a
-    rel="external"
-      onClick={handleClick}
+    <Link
+      href={route}
       className={`
         inline-flex items-center justify-center
         bg-transparent
@@ -49,6 +49,6 @@ export default function BookGameButton({
       `}
     >
       {label}
-    </a>
+    </Link>
   );
 }

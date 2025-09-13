@@ -15,16 +15,13 @@ const siteUrl = "https://zlwebster.com";
 
 
 export const metadata: Metadata = {
-  title: {
-    default: "Zero Latency VR Webster | Virtual Reality Gaming Arena in Greater Houston, Texas",
-    template: "%s | Zero Latency VR Houston, Webster",
-  },
-  description: "Experience the world's most advanced VR Adventure in Webster serving Greater Houston. Up to 8 players at Zero Latency VR Webster. Zombie survival, sci-fi missions, PvP esports, and family-friendly worlds.",
+  title: "Virtual Reality Gaming Arena in Greater Houston | Zero Latency VR Houston, Webster",
+  description: "Experience the world's most advanced VR Adventure in Webster serving Greater Houston. Up to 8 players. Zombie survival, sci-fi missions, PvP esports, and family-friendly worlds.",
   keywords: seoKeywords,
-  authors: [{ name: "Zero Latency VR Webster" }],
-  creator: "Zero Latency VR Webster",
-  publisher: "Zero Latency VR",
-  applicationName: "Zero Latency VR Webster",
+  authors: [{ name: "Zero Latency VR Houston, Webster" }],
+  creator: "Zero Latency VR Houston, Webster",
+  publisher: "Zero Latency VR Houston, Webster",
+  applicationName: "Zero Latency VR Houston, Webster",
   generator: "Next.js",
   metadataBase: new URL("https://zlwebster.com/"),
   referrer: "origin-when-cross-origin",
@@ -34,13 +31,13 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Zero Latency VR Webster | Virtual Reality Gaming Arena in Greater Houston, Texas",
+    title: "Virtual Reality Gaming Arena in Greater Houston | Zero Latency VR Houston, Webste",
     description:
-      "Immersive free-roam VR gaming arena in Webster, TX. Play exclusive VR games with friends, host parties & corporate events. Book your adventure today!",
+      "Experience the world's most advanced VR Adventure in Webster serving Greater Houston. Up to 8 players. Zombie survival, sci-fi missions, PvP esports, and family-friendly worlds.",
     siteName: "Zero Latency VR Webster",
     images: [
       {
-        url: "https://zlwebster.com/OG.webp",
+        url: "https://zlwebster.com/OG.jpg",
         width: 1200,
         height: 630,
         alt: "Players enjoying a VR Game experience at Zero Latency VR Webster",
@@ -121,7 +118,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      {/* <head>
         {GA_ID && (
           <>
             <Script
@@ -139,7 +136,7 @@ export default function RootLayout({
             </Script>
           </>
         )}
-      </head>
+      </head> */}
       <body className={`${poppins.variable} ${montserrat.variable} antialiased`}>
         <a href="#main-content" className="sr-only focus:not-sr-only">Skip to content</a>
         <Suspense><AnalyticsClient /></Suspense>

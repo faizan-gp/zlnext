@@ -36,6 +36,7 @@ export default function InteractiveVideoPlayer({ videoSrc, thumbnailSrc, thumbna
     return (
         <div className="relative aspect-video w-full rounded-2xl overflow-hidden shadow-2xl border-2 border-gray-800">
             <video
+            id="video"
                 ref={videoRef}
                 src={videoSrc}
                 className="w-full h-full object-cover"

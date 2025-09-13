@@ -13,7 +13,7 @@ export default function FAQ({ faqs }: FaqProps) {
     };
 
     return (
-        <section className="py-24">
+        <section id="faq" className="py-24">
             <div className="text-center">
                 <h2 className="text-4xl md:text-5xl font-poppins font-black text-white"><span className='text-stroke-blue'>Frequently</span> Asked Questions</h2>
             </div>

@@ -47,7 +47,7 @@ const testimonials = [
 export default function Review() {
 
     return (
-        <section
+        <section id="reviews"
             className="relative py-16 md:py-24 text-gray-200"
             // This style creates the subtle radial gradient background for more depth
             style={{ background: 'radial-gradient(ellipse at center, rgba(3, 44, 56, 0.5) 0%, #000F13 70%)' }}
