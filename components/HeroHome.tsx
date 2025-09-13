@@ -81,7 +81,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                             <BookGameButton />
                         </div>
                         <div>
-                            <div className="aspect-video rounded-2xl bg-gray-900 shadow-xl overflow-hidden">
+                            {/* <div className="aspect-video rounded-2xl bg-gray-900 shadow-xl overflow-hidden">
                                 <iframe
                                     className="w-full h-full object-cover"
                                     src="https://www.youtube.com/embed/1_1-uJXPIRE?autoplay=0&mute=1&loop=1" // Replace YOUR_VIDEO_ID
@@ -90,7 +90,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                                     allowFullScreen
                                 ></iframe>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>
