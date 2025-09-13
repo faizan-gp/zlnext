@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://zlwebster.com/og-undead-arena.jpg", // replace with your OG image
+        url: "https://zlwebster.com/og-undead-arena.webp", // replace with your OG image
         width: 1200,
         height: 630,
         alt: "Undead Arena contestants fighting zombies under neon spotlights.",
@@ -70,7 +70,7 @@ export default function UndeadArenaPage() {
         <section className="relative min-h-[90vh] flex items-center justify-center text-center py-20 lg:py-0">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/undead-hero-bg.jpg"
+              src="/undead-hero-bg.webp"
               alt="Neon-lit arena with flaming billboards and a roaring post-apocalyptic crowd."
               layout="fill"
               objectFit="cover"
@@ -131,7 +131,7 @@ export default function UndeadArenaPage() {
 
             <div className="space-y-8">
               <VisualFeatureCard
-                imgSrc="/undead-arena-stage.jpg"
+                imgSrc="/undead-arena-stage.webp"
                 imgAlt="Contestants posing in a retro 80s-styled TV arena surrounded by undead."
                 title="Apocalypse Meets Game Show"
               >
@@ -142,7 +142,7 @@ export default function UndeadArenaPage() {
 
               <div className="grid md:grid-cols-2 gap-8">
                 <VisualFeatureCard
-                  imgSrc="/undead-arena-weapons.jpg"
+                  imgSrc="/undead-arena-weapons.webp"
                   imgAlt="Assault rifle, shotgun, and crossbow loadouts on a rack between rounds."
                   title="Pick Your Loadout"
                 >
@@ -152,7 +152,7 @@ export default function UndeadArenaPage() {
                 </VisualFeatureCard>
 
                 <VisualFeatureCard
-                  imgSrc="/undead-arena-commentator.jpg"
+                  imgSrc="/undead-arena-commentator.webp"
                   imgAlt="Big screens, booming host, and score overlays as zombies pour in."
                   title="Lights, Camera, Mayhem"
                 >
@@ -171,7 +171,7 @@ export default function UndeadArenaPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/undead-arena-waves.jpg"
+                  src="/undead-arena-waves.webp"
                   alt="Contestants holding a chokepoint as tougher zombie waves approach."
                   layout="fill"
                   objectFit="cover"
@@ -204,7 +204,7 @@ export default function UndeadArenaPage() {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/undead-arena-traps.jpg"
+                  src="/undead-arena-traps.webp"
                   alt="Players activating neon trap signage that detonates barrels around zombies."
                   layout="fill"
                   objectFit="cover"
@@ -218,7 +218,7 @@ export default function UndeadArenaPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/undead-arena-platforms.jpg"
+                  src="/undead-arena-platforms.webp"
                   alt="Moving bridges and platforms opening new angles inside the arena."
                   layout="fill"
                   objectFit="cover"
@@ -252,7 +252,7 @@ export default function UndeadArenaPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <VisualFeatureCard
-                imgSrc="/undead-arena-8p.jpg"
+                imgSrc="/undead-arena-8p.webp"
                 imgAlt="Eight players clearing a wave together."
                 title="Up to 8 Players"
               >
@@ -260,7 +260,7 @@ export default function UndeadArenaPage() {
               </VisualFeatureCard>
 
               <VisualFeatureCard
-                imgSrc="/undead-arena-score.jpg"
+                imgSrc="/undead-arena-score.webp"
                 imgAlt="End-of-match board with kills, headshots, and MVP crown."
                 title="Claim Your Crown"
               >
@@ -268,7 +268,7 @@ export default function UndeadArenaPage() {
               </VisualFeatureCard>
 
               <VisualFeatureCard
-                imgSrc="/undead-arena-vibe.jpg"
+                imgSrc="/undead-arena-vibe.webp"
                 imgAlt="Contestants laughing as the commentator hypes the crowd."
                 title="Scares + Laughs"
               >
@@ -301,7 +301,7 @@ export default function UndeadArenaPage() {
               </div>
               <div className="relative h-80 rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/undead-arena-group.jpg"
+                  src="/undead-arena-group.webp"
                   alt="Friends high-fiving after surviving the final wave."
                   layout="fill"
                   objectFit="cover"

@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         type: "article",
         images: [
             {
-                url: "https://zlwebster.com/og-what-to-expect.jpg",
+                url: "https://zlwebster.com/og-what-to-expect.webp",
                 width: 1200,
                 height: 630,
                 alt: "A player wearing a VR headset and holding a controller at Zero Latency Webster.",
@@ -76,7 +76,7 @@ const timelineSteps = [
         step: "05",
         title: "After the Game & Memories",
         description: "Each heart-pounding game lasts around 15-45 minutes. After you emerge victorious, check your scores on our leaderboard and snap a photo with your team to remember the adventure. Don't forget to share your experience on social media and tag us!",
-        image: "/post-game-group.jpg",
+        image: "/post-game-group.webp",
         alt: "A smiling group of friends posing for a photo after their VR experience.",
     },
 ];
@@ -88,7 +88,7 @@ export default function WhatToExpectPage() {
                 {/* HERO SECTION */}
                 <section className="relative h-[60vh] flex items-center justify-center text-center">
                     <Image
-                        src="/background.jpg" // A cool, abstract, or in-game background image
+                        src="/background.webp" // A cool, abstract, or in-game background image
                         alt="A stunning visual from a Zero Latency VR game."
                         layout="fill"
                         objectFit="cover"
@@ -109,7 +109,7 @@ export default function WhatToExpectPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <InteractiveVideoPlayer
                             videoSrc="/expect.m4v"
-                            thumbnailSrc="/what-to-expect-thumbnail.jpg"
+                            thumbnailSrc="/what-to-expect-thumbnail.webp"
                             thumbnailAlt="What to expect from Zero Latency VR"
                         />
                     </div>

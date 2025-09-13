@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         url: "https://zlwebster.com/private-events",
         images: [
             {
-                url: "https://zlwebster.com/og-private-events.jpg",
+                url: "https://zlwebster.com/og-private-events.webp",
                 width: 1200,
                 height: 630,
                 alt: "A group of people celebrating at a private VR party at Zero Latency Webster.",
@@ -43,7 +43,7 @@ export default function PrivateEventsPage() {
                 <section className="relative min-h-[70vh] flex items-center justify-center text-center py-20">
                     <div className="absolute inset-0 z-0">
                          <Image 
-                            src="/events-hero-bg.png" // A wide shot of a group in the VR arena
+                            src="/events-hero-bg.webp" // A wide shot of a group in the VR arena
                             alt="A group of players fully geared up for a VR adventure at Zero Latency Webster."
                             layout="fill"
                             objectFit="cover"

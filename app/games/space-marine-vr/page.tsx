@@ -54,7 +54,7 @@ export default function SpaceMarinePage() {
                 <section className="relative min-h-[90vh] flex items-center justify-center text-center py-20 lg:py-0">
                     <div className="absolute inset-0 z-0 opacity-10">
                          <Image 
-                            src="/sci-fi.jpg"
+                            src="/sci-fi.webp"
                             alt="Futuristic sci-fi battlefield background"
                             layout="fill"
                             objectFit="cover"
@@ -109,13 +109,13 @@ export default function SpaceMarinePage() {
                             <h2 className="text-4xl font-poppins text-white font-bold sm:text-5xl">WELCOME TO THE <span className="text-stroke-blue">41ST MILLENNIUM</span></h2>
                         </div>
                         <div className="grid md:grid-cols-3 gap-8">
-                            <VisualFeatureCard imgSrc="/become-a-marine.jpg" imgAlt="A close-up of a powerful Space Marine in full battle armor." title="BECOME a Space Marine">
+                            <VisualFeatureCard imgSrc="/become-a-marine.webp" imgAlt="A close-up of a powerful Space Marine in full battle armor." title="BECOME a Space Marine">
                                 You are a genetically enhanced super-soldier, humanity&apos;s last line of defense.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/explore-hive-city.jpg" imgAlt="The sprawling, gothic architecture of Hive City Fervastium at dusk." title="EXPLORE Hive City">
+                            <VisualFeatureCard imgSrc="/explore-hive-city.webp" imgAlt="The sprawling, gothic architecture of Hive City Fervastium at dusk." title="EXPLORE Hive City">
                                 Your mission takes you deep into Fervastium, a war-torn, vertical metropolis.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/fight-the-swarm.jpg" imgAlt="A terrifying horde of Tyranid aliens charging towards the viewer." title="FIGHT the Tyranid Swarm">
+                            <VisualFeatureCard imgSrc="/fight-the-swarm.webp" imgAlt="A terrifying horde of Tyranid aliens charging towards the viewer." title="FIGHT the Tyranid Swarm">
                                 Face down an all-consuming alien swarm from beyond the known galaxy.
                             </VisualFeatureCard>
                         </div>
@@ -127,7 +127,7 @@ export default function SpaceMarinePage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 lg:h-[32rem] rounded-xl overflow-hidden shadow-2xl border-2 border-cyan-800/50">
-                                <Image src="/player-vr-weapon.jpg" alt="Space Marines aiming a futuristic rifle at an alien horde." layout="fill" objectFit="cover" />
+                                <Image src="/player-vr-weapon.webp" alt="Space Marines aiming a futuristic rifle at an alien horde." layout="fill" objectFit="cover" />
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h2 className="text-4xl font-poppins font-bold sm:text-5xl">UNLEASH YOUR <span className="text-stroke-blue">INNER WARRIOR</span></h2>
@@ -149,16 +149,16 @@ export default function SpaceMarinePage() {
                             </p>
                         </div>
                         <div className="grid md:grid-cols-2 gap-8">
-                            <VisualFeatureCard imgSrc="/revive-allies.png" imgAlt="A Space Marine character model reviving a fallen squadmate in-game." title="Revive Allies">
+                            <VisualFeatureCard imgSrc="/revive-allies.webp" imgAlt="A Space Marine character model reviving a fallen squadmate in-game." title="Revive Allies">
                                 Keep your squad in the fight. Reviving fallen comrades is key to defeating the relentless alien swarms.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/deploy-tactics.png" imgAlt="An in-game screenshot of a stun grenade exploding amidst a horde of Tyranids." title="Deploy Tactics">
+                            <VisualFeatureCard imgSrc="/deploy-tactics.webp" imgAlt="An in-game screenshot of a stun grenade exploding amidst a horde of Tyranids." title="Deploy Tactics">
                                 Use Stun Grenades to halt enemy assaults and create an opening for your team to seize victory.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/reset-rally-rise.png" imgAlt="A &apos;Mission Failed&apos; screen from the game, showing the squad being overrun." title="Reset, Rally, Rise">
+                            <VisualFeatureCard imgSrc="/reset-rally-rise.webp" imgAlt="A &apos;Mission Failed&apos; screen from the game, showing the squad being overrun." title="Reset, Rally, Rise">
                                 If the whole team falls, the level resets. Regroup and learn from your mistakes to try again.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/stay-sharp.png" imgAlt="A first-person view in the game showing a friendly fire warning indicator." title="Stay Sharp">
+                            <VisualFeatureCard imgSrc="/stay-sharp.webp" imgAlt="A first-person view in the game showing a friendly fire warning indicator." title="Stay Sharp">
                                 Avoid friendly fire. One stray move can cost a comrade their life, leaving your squad exposed.
                             </VisualFeatureCard>
                         </div>
@@ -171,7 +171,7 @@ export default function SpaceMarinePage() {
                         <h2 className="text-4xl font-poppins text-white font-bold sm:text-5xl">CHOOSE YOUR <span className="text-stroke-blue">THREAT LEVEL</span></h2>
                         <div className="mt-16 grid lg:grid-cols-3 gap-8 items-stretch">
 
-                            <VisualFeatureCard imgSrc="/base-mode.jpg" imgAlt="An intense but manageable firefight in Space Marine VR." title="BASE MODE">
+                            <VisualFeatureCard imgSrc="/base-mode.webp" imgAlt="An intense but manageable firefight in Space Marine VR." title="BASE MODE">
                                 The core experience. A balanced, intense fight perfect for your first deployment.
                             </VisualFeatureCard>
 
@@ -179,7 +179,7 @@ export default function SpaceMarinePage() {
                             <div className="relative rounded-lg overflow-hidden group border-2 border-cyan-500 transform lg:scale-105 shadow-2xl shadow-cyan-900/50">
                                 <div className="w-full" style={{ paddingTop: '100%' }}></div>
                                 <div className="absolute inset-0">
-                                    <Image src="/threat-lethal.png" alt="A desperate last stand against an overwhelming number of aliens." layout="fill" objectFit="cover" className="z-0 transition-transform duration-500 ease-in-out group-hover:scale-110" />
+                                    <Image src="/threat-lethal.webp" alt="A desperate last stand against an overwhelming number of aliens." layout="fill" objectFit="cover" className="z-0 transition-transform duration-500 ease-in-out group-hover:scale-110" />
                                     <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/90 via-black/60 to-transparent"></div>
                                     <div className="absolute bottom-0 left-0 right-0 z-20 p-6" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.8)' }}>
                                         <p className="font-bold text-cyan-400 uppercase text-sm mb-1">ADVANCED CHALLENGE</p>
@@ -191,7 +191,7 @@ export default function SpaceMarinePage() {
                                 </div>
                             </div>
 
-                            <VisualFeatureCard imgSrc="/lethal-extra.png" imgAlt="A squad of Space Marines pushing towards a final objective, looking determined." title="THREAT: LETHAL EXTRA">
+                            <VisualFeatureCard imgSrc="/lethal-extra.webp" imgAlt="A squad of Space Marines pushing towards a final objective, looking determined." title="THREAT: LETHAL EXTRA">
                                 Test your endurance. The swarm is just as tough, but 15 extra minutes might be what you need to win.
                             </VisualFeatureCard>
                         </div>
@@ -212,7 +212,7 @@ export default function SpaceMarinePage() {
                                 </div>
                             </div>
                             <div className="relative h-80 rounded-lg overflow-hidden shadow-2xl">
-                                <Image src="/warhammer-final-cta.png" alt="A heroic, final shot of the Space Marine squad victorious." layout="fill" objectFit="cover" />
+                                <Image src="/warhammer-final-cta.webp" alt="A heroic, final shot of the Space Marine squad victorious." layout="fill" objectFit="cover" />
                             </div>
                         </div>
                     </div>

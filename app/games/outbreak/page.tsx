@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "https://zlwebster.com/og-outbreak.jpg", // Replace with actual game OG image
+                url: "https://zlwebster.com/og-outbreak.webp", // Replace with actual game OG image
                 width: 1200,
                 height: 630,
                 alt: "A squad of players stands back-to-back against a zombie horde in the Outbreak VR game.",
@@ -62,7 +62,7 @@ export default function OutbreakPage() {
                 <section className="relative min-h-[90vh] flex items-center justify-center text-center py-20 lg:py-0">
                     <div className="absolute inset-0 z-0">
                         <Image
-                            src="/outbreak-hero-bg.jpg"
+                            src="/outbreak-hero-bg.webp"
                             alt="A dark, desolate city street during a zombie apocalypse."
                             layout="fill"
                             objectFit="cover"
@@ -118,7 +118,7 @@ export default function OutbreakPage() {
                         </div>
                         <div className="space-y-8">
                             <div>
-                                <VisualFeatureCard imgSrc="/outbreak-horde.jpg" imgAlt="A massive horde of zombies swarming through a city street." title="UNITE AND FIGHT">
+                                <VisualFeatureCard imgSrc="/outbreak-horde.webp" imgAlt="A massive horde of zombies swarming through a city street." title="UNITE AND FIGHT">
                                     Experience first-hand what it’s like to fight for your life in an apocalyptic world full of the undead.
                                 </VisualFeatureCard>
                             </div>
@@ -126,7 +126,7 @@ export default function OutbreakPage() {
                                 <VisualFeatureCard imgSrc="/outbreak-cure.webp" imgAlt="A tense scene inside a research lab with flickering lights." title="GUARD THE CURE">
                                     You and your team are guarding a research facility with the only cure for an insidious zombie virus.
                                 </VisualFeatureCard>
-                                <VisualFeatureCard imgSrc="/outbreak-mercenaries.jpg" imgAlt="Armed mercenaries moving through a dark corridor." title="FIGHT THE LIVING">
+                                <VisualFeatureCard imgSrc="/outbreak-mercenaries.webp" imgAlt="Armed mercenaries moving through a dark corridor." title="FIGHT THE LIVING">
                                     The undead aren&apos;t your only threat. Ruthless mercenaries crave the cure and will stop at nothing to get it.
                                 </VisualFeatureCard>
                             </div>
@@ -140,7 +140,7 @@ export default function OutbreakPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/outbreak-sewers.jpg" alt="Players navigating a dark, grimy sewer as zombies emerge from the shadows." layout="fill" objectFit="cover" />
+                                <Image src="/outbreak-sewers.webp" alt="Players navigating a dark, grimy sewer as zombies emerge from the shadows." layout="fill" objectFit="cover" />
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h3 className="text-3xl font-poppins font-bold text-white">ESCAPE THE <span className="text-stroke-blue">SEWERS</span></h3>
@@ -160,7 +160,7 @@ export default function OutbreakPage() {
                                 </p>
                             </div>
                             <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/outbreak-helicopter.png" alt="View from inside a helicopter, looking down at a burning, zombie-infested city." layout="fill" objectFit="cover" />
+                                <Image src="/outbreak-helicopter.webp" alt="View from inside a helicopter, looking down at a burning, zombie-infested city." layout="fill" objectFit="cover" />
                             </div>
                         </div>
                     </div>
@@ -176,16 +176,16 @@ export default function OutbreakPage() {
                             </p>
                         </div>
                         <div className="grid md:grid-cols-2 gap-8">
-                            <VisualFeatureCard imgSrc="/outbreak-team.jpg" imgAlt="A team of players in VR gear fighting zombies back-to-back." title="Squad Up (1-8 Players)">
+                            <VisualFeatureCard imgSrc="/outbreak-team.webp" imgAlt="A team of players in VR gear fighting zombies back-to-back." title="Squad Up (1-8 Players)">
                                 Form a squad of up to 8 survivors. You&apos;ll need every last one of you to make it through this zombie survival game.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/outbreak-zombies.png" imgAlt="A variety of different zombie types, including fast and large ones." title="Face the Horde">
+                            <VisualFeatureCard imgSrc="/outbreak-zombies.webp" imgAlt="A variety of different zombie types, including fast and large ones." title="Face the Horde">
                                 Battle relentless hordes of lifelike, flesh-hungry zombies, including some nasty surprises that will get your adrenaline pumping.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/outbreak-weapons.jpg" imgAlt="A close-up of the different virtual reality rifles and shotguns available in the game." title="Advanced Arsenal">
+                            <VisualFeatureCard imgSrc="/outbreak-weapons.webp" imgAlt="A close-up of the different virtual reality rifles and shotguns available in the game." title="Advanced Arsenal">
                                 Gear up with a powerful arsenal of weapons. From assault rifles to shotguns, you&apos;ll need the right tool for the job.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/outbreak-immersion.jpg" imgAlt="A player wearing a VR headset looking terrified and amazed." title="Total Immersion">
+                            <VisualFeatureCard imgSrc="/outbreak-immersion.webp" imgAlt="A player wearing a VR headset looking terrified and amazed." title="Total Immersion">
                                 With realistic graphics and surround sound, you&apos;ll hear the eerie groans of the undead and feel like they&apos;re truly closing in.
                             </VisualFeatureCard>
                         </div>
@@ -196,7 +196,7 @@ export default function OutbreakPage() {
                 <section className="relative py-32 sm:py-40 text-center bg-gray-900/50">
                     <div className="absolute inset-0 z-0">
                         <Image
-                            src="/outbreak-final-battle.jpg"
+                            src="/outbreak-final-battle.webp"
                             alt="An epic final battle scene against a helicopter and mercenaries."
                             layout="fill"
                             objectFit="cover"
@@ -227,7 +227,7 @@ export default function OutbreakPage() {
                                 </div>
                             </div>
                             <div className="relative h-80 rounded-lg overflow-hidden shadow-2xl">
-                                <Image src="/outbreak-group-fun.jpg" alt="A group of friends laughing and high-fiving after their VR experience." layout="fill" objectFit="cover" />
+                                <Image src="/outbreak-group-fun.webp" alt="A group of friends laughing and high-fiving after their VR experience." layout="fill" objectFit="cover" />
                             </div>
                         </div>
                     </div>

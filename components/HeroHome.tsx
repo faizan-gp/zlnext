@@ -1,9 +1,9 @@
 import Image from "next/image";
 import BookGameButton from "./BookBtn";
 import { ArrowRight, CheckCircle, Gift, Headset, Move, PartyPopper, Users } from "lucide-react";
-import Birthday from "../public/Birthday.jpg";
-import Corporate from "../public/corporate.jpg";
-import Party from "../public/party.jpg";
+import Birthday from "../public/Birthday.webp";
+import Corporate from "../public/corporate.webp";
+import Party from "../public/party.webp";
 import FAQ from "./FAQ";
 import Review from "./Reviews";
 import InteractiveVideoPlayer from "./InteractiveVideoPlayer";
@@ -41,7 +41,7 @@ export default function HeroHome({ faqs }: FaqProps) {
         <div className="bg-[#000F13] text-gray-200 font-montserrat">
             <section
                 className="relative h-screen flex items-center justify-center bg-cover bg-center"
-                style={{ backgroundImage: "url('./Webster_Houston.jpg')" }}
+                style={{ backgroundImage: "url('./Webster_Houston.webp')" }}
             >
                 <div className="absolute inset-0 bg-black opacity-70"></div> {/* This adds a dark overlay for better text readability */}
                 <div className="relative z-20 text-center px-4">
@@ -61,7 +61,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                     {/* Use the new component here */}
                     <InteractiveVideoPlayer 
                         videoSrc="/zl_home.webm"
-                        thumbnailSrc="/far-cry-team.jpg"
+                        thumbnailSrc="/far-cry-team.webp"
                         thumbnailAlt="Gameplay footage of Zero Latency VR"
                     />
                 </div>
@@ -124,10 +124,10 @@ export default function HeroHome({ faqs }: FaqProps) {
                     <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
                         {[
                             // Added 'href' to each object for navigation
-                            { title: "Zombie Survival", desc: "Heart-pounding action as you fight your way through hordes of the undead.", img: "/Outbreak-Digital-Square.jpg", href: zombieRandom() },
-                            { title: "Sci-Fi Adventures", desc: "Explore futuristic worlds filled with rogue AI, robots, and alien invasions.", img: "/Sci-fi.jpg", href: sciFiRandom() },
-                            { title: "PvP Esports Battles", desc: "Go head-to-head against friends in team-based shooter challenges.", img: "/pvp.jpg", href: "/games/sol-raiders" },
-                            { title: "Family-Friendly Worlds", desc: "Stunning, non-combat experiences perfect for first-timers and all ages.", img: "/Family-Adventure.jpg", href: "/games/engineerium" },
+                            { title: "Zombie Survival", desc: "Heart-pounding action as you fight your way through hordes of the undead.", img: "/Outbreak-Digital-Square.webp", href: zombieRandom() },
+                            { title: "Sci-Fi Adventures", desc: "Explore futuristic worlds filled with rogue AI, robots, and alien invasions.", img: "/Sci-fi.webp", href: sciFiRandom() },
+                            { title: "PvP Esports Battles", desc: "Go head-to-head against friends in team-based shooter challenges.", img: "/pvp.webp", href: "/games/sol-raiders" },
+                            { title: "Family-Friendly Worlds", desc: "Stunning, non-combat experiences perfect for first-timers and all ages.", img: "/Family-Adventure.webp", href: "/games/engineerium" },
                         ].map(exp => (
                             // Wrap the card in an anchor tag to make it clickable
                             <Link

@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://zlwebster.com/og-far-cry-vr.jpg", // replace with your OG image
+        url: "https://zlwebster.com/og-far-cry-vr.webp", // replace with your OG image
         width: 1200,
         height: 630,
         alt:
@@ -71,7 +71,7 @@ export default function FarCryVRPage() {
         <section className="relative min-h-[90vh] flex items-center justify-center text-center py-20 lg:py-0">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/far-cry-hero-bg.jpg"
+              src="/far-cry-hero-bg.webp"
               alt="Moonlit jungle and shoreline of a dangerous tropical island."
               layout="fill"
               objectFit="cover"
@@ -131,7 +131,7 @@ export default function FarCryVRPage() {
 
             <div className="space-y-8">
               <VisualFeatureCard
-                imgSrc="/far-cry-intro.jpg"
+                imgSrc="/far-cry-intro.webp"
                 imgAlt="A squad of players moving through a lush tropical jungle with pirate outposts ahead."
                 title="Enter the World of Far Cry® 3"
               >
@@ -145,7 +145,7 @@ export default function FarCryVRPage() {
 
               <div className="grid md:grid-cols-2 gap-8">
                 <VisualFeatureCard
-                  imgSrc="/far-cry-vaas.jpg"
+                  imgSrc="/far-cry-vaas.webp"
                   imgAlt="The menacing silhouette of Vaas and his pirates at a jungle outpost."
                   title="Face Vaas"
                 >
@@ -155,7 +155,7 @@ export default function FarCryVRPage() {
                 </VisualFeatureCard>
 
                 <VisualFeatureCard
-                  imgSrc="/far-cry-jungle.jpg"
+                  imgSrc="/far-cry-jungle.webp"
                   imgAlt="Players sneaking through dense foliage toward a coastal village."
                   title="Rook Islands, Reimagined"
                 >
@@ -175,7 +175,7 @@ export default function FarCryVRPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/far-cry-coop.jpg"
+                  src="/far-cry-coop.webp"
                   alt="Up to eight players coordinating in a firefight against pirates."
                   layout="fill"
                   objectFit="cover"
@@ -207,7 +207,7 @@ export default function FarCryVRPage() {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/far-cry-caves.png"
+                  src="/far-cry-caves.webp"
                   alt="Glowing mushrooms light a narrow cave passage as players advance."
                   layout="fill"
                   objectFit="cover"
@@ -221,7 +221,7 @@ export default function FarCryVRPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/far-cry-showdown.jpg"
+                  src="/far-cry-showdown.webp"
                   alt="A furious firefight in the heart of the jungle near ancient ruins."
                   layout="fill"
                   objectFit="cover"
@@ -255,7 +255,7 @@ export default function FarCryVRPage() {
 
             <div className="grid md:grid-cols-2 gap-8">
               <VisualFeatureCard
-                imgSrc="/far-cry-team.jpg"
+                imgSrc="/far-cry-team.webp"
                 imgAlt="Team of friends in VR gear strategizing before a mission."
                 title="Built for Groups"
               >
@@ -264,7 +264,7 @@ export default function FarCryVRPage() {
               </VisualFeatureCard>
 
               <VisualFeatureCard
-                imgSrc="/far-cry-weapons.jpg"
+                imgSrc="/far-cry-weapons.webp"
                 imgAlt="Close-up of VR rifles and sidearms inspired by Far Cry."
                 title="Weapons & Upgrades"
               >
@@ -273,7 +273,7 @@ export default function FarCryVRPage() {
               </VisualFeatureCard>
 
               <VisualFeatureCard
-                imgSrc="/far-cry-immersion.jpg"
+                imgSrc="/far-cry-immersion.webp"
                 imgAlt="Sunlight cutting through jungle canopy; particles and foliage all around."
                 title="30 Minutes of Total Immersion"
               >

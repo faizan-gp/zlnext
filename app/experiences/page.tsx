@@ -21,7 +21,7 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "https://zlwebster.com/og-experiences.jpg",
+                url: "https://zlwebster.com/og-experiences.webp",
                 width: 1200,
                 height: 630,
                 alt: "A collage of different VR experiences at Zero Latency Webster.",
@@ -39,7 +39,7 @@ const experienceCategories = [
             { name: "Undead Arena", href: "/games/undead-arena" },
         ],
         keywords: ["zombie virtual reality", "VR zombie game Houston", "horror VR experience"],
-        imageSrc: "/zombie-experience.jpg",
+        imageSrc: "/zombie-experience.webp",
         imageAlt: "Players fighting off a horde of zombies in a Zero Latency VR survival game.",
     },
     {
@@ -50,7 +50,7 @@ const experienceCategories = [
             { name: "Space Marine VR", href: "/games/space-marine-vr" },
         ],
         keywords: ["VR space game", "sci-fi VR shooter", "alien shooter VR"],
-        imageSrc: "/sci-fi-experience.jpg",
+        imageSrc: "/sci-fi-experience.webp",
         imageAlt: "A team of players exploring a futuristic space station in a sci-fi VR mission.",
     },
     {
@@ -60,7 +60,7 @@ const experienceCategories = [
             { name: "Sol Raiders", href: "/games/sol-raiders" },
         ],
         keywords: ["VR arena PvP", "VR esports tournament", "competitive VR game"],
-        imageSrc: "/pvp-experience.jpg",
+        imageSrc: "/pvp-experience.webp",
         imageAlt: "Two teams facing off in a competitive PvP VR esports match at Zero Latency.",
     },
     {
@@ -70,7 +70,7 @@ const experienceCategories = [
             { name: "Engineerium", href: "/games/engineerium" },
         ],
         keywords: ["immersive VR for family", "VR puzzle adventure", "non-combat VR"],
-        imageSrc: "/family-experience.jpg",
+        imageSrc: "/family-experience.webp",
         imageAlt: "Players walking on floating platforms in the colorful, family-friendly Engineerium VR world.",
     },
 ];
@@ -82,7 +82,7 @@ export default function ExperiencesPage() {
                 {/* HERO SECTION */}
                 <section className="relative h-[60vh] flex items-center justify-center text-center">
                     <Image
-                        src="/experiences-hero.jpg" // A dynamic collage or wide-angle shot of the arena
+                        src="/experiences-hero.webp" // A dynamic collage or wide-angle shot of the arena
                         alt="Players immersed in a virtual reality experience at Zero Latency Houston&apos;s arena."
                         layout="fill"
                         objectFit="cover"
@@ -103,7 +103,7 @@ export default function ExperiencesPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <InteractiveVideoPlayer
                             videoSrc="/experience.mp4"
-                            thumbnailSrc="/experience.jpg"
+                            thumbnailSrc="/experience.webp"
                             thumbnailAlt="What will I get to experience at Zero Latency VR Webster?"
                         />
                     </div>

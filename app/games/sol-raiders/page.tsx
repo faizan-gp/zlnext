@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://zlwebster.com/og-sol-raiders.jpg", // replace with your OG image
+        url: "https://zlwebster.com/og-sol-raiders.webp", // replace with your OG image
         width: 1200,
         height: 630,
         alt: "Sol Raiders PvP teams clash in a futuristic VR arena.",
@@ -70,7 +70,7 @@ export default function SolRaidersPage() {
         <section className="relative min-h-[90vh] flex items-center justify-center text-center py-20 lg:py-0">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/sol-raiders-hero-bg.jpg"
+              src="/sol-raiders-hero-bg.webp"
               alt="Neon-lit sci-fi arena with energy cores pulsing at center."
               layout="fill"
               objectFit="cover"
@@ -131,7 +131,7 @@ export default function SolRaidersPage() {
 
             <div className="space-y-8">
               <VisualFeatureCard
-                imgSrc="/sol-raiders-team.jpg"
+                imgSrc="/sol-raiders-team.webp"
                 imgAlt="Two four-player VR teams facing off in a glowing arena."
                 title="Build Your Crew, Claim the Sol"
               >
@@ -153,7 +153,7 @@ export default function SolRaidersPage() {
                 </VisualFeatureCard>
 
                 <VisualFeatureCard
-                  imgSrc="/sol-raiders-commms.jpg"
+                  imgSrc="/sol-raiders-commms.webp"
                   imgAlt="Players calling positions and coordinating flanks."
                   title="Teamwork > Lone-Wolf"
                 >
@@ -179,7 +179,7 @@ export default function SolRaidersPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <VisualFeatureCard
-                imgSrc="/sol-raiders-turbine.jpg"
+                imgSrc="/sol-raiders-turbine.webp"
                 imgAlt="Wind-swept industrial platform of Turbine Station."
                 title="Turbine Station"
               >
@@ -188,7 +188,7 @@ export default function SolRaidersPage() {
               </VisualFeatureCard>
 
               <VisualFeatureCard
-                imgSrc="/sol-raiders-dark-wreck.jpg"
+                imgSrc="/sol-raiders-dark-wreck.webp"
                 imgAlt="Derelict hulk packed with cover and sightlines."
                 title="Dark Wreck"
               >
@@ -196,7 +196,7 @@ export default function SolRaidersPage() {
               </VisualFeatureCard>
 
               <VisualFeatureCard
-                imgSrc="/sol-raiders-mining.jpg"
+                imgSrc="/sol-raiders-mining.webp"
                 imgAlt="Sun-baked canyon with bridges and vertical lanes."
                 title="Mining Canyon"
               >
@@ -208,7 +208,7 @@ export default function SolRaidersPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center mt-16">
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/sol-raiders-objectives.jpg"
+                  src="/sol-raiders-objectives.webp"
                   alt="Players escorting the Sol core through fire under cover."
                   layout="fill"
                   objectFit="cover"
@@ -243,7 +243,7 @@ export default function SolRaidersPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               <VisualFeatureCard
-                imgSrc="/sol-raiders-esports.jpg"
+                imgSrc="/sol-raiders-esports.webp"
                 imgAlt="Teams huddled up before a match."
                 title="Run a Bracket"
               >
@@ -251,7 +251,7 @@ export default function SolRaidersPage() {
               </VisualFeatureCard>
 
               <VisualFeatureCard
-                imgSrc="/sol-raiders-leaderboard.png"
+                imgSrc="/sol-raiders-leaderboard.webp"
                 imgAlt="Glowing leaderboard with match stats."
                 title="Chase the Glory"
               >
@@ -259,7 +259,7 @@ export default function SolRaidersPage() {
               </VisualFeatureCard>
 
               <VisualFeatureCard
-                imgSrc="/sol-raiders-gear.png"
+                imgSrc="/sol-raiders-gear.webp"
                 imgAlt="Players sprinting and ducking behind cover in free-roam space."
                 title="Free-Roam Intensity"
               >
@@ -298,7 +298,7 @@ export default function SolRaidersPage() {
               </div>
               <div className="relative h-80 rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/sol-raiders-raided.jpg"
+                  src="/sol-raiders-raided.webp"
                   alt="A Girl Raiding SOL"
                   layout="fill"
                   objectFit="cover"

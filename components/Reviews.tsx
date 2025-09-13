@@ -30,7 +30,7 @@ const testimonials = [
         author: 'Lance Koon',
         source: 'Google Review',
         avatarInitial: 'LK',
-        image: '/review_4.jpg' // Placeholder path
+        image: '/review_4.webp' // Placeholder path
     },
     {
         type: 'text',

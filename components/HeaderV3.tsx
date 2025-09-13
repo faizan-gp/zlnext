@@ -52,7 +52,7 @@ export default function HeaderV3() {
         <div className="mx-auto flex h-20 max-w-7xl items-center justify-between">
           <Link href="/" className="flex items-center" onClick={() => setMobileMenuOpen(false)}>
             <Image
-              src="/ZL-W.png"
+              src="/ZL-W.webp"
               alt="Zero Latency Webster Logo"
               width={66}
               height={50}

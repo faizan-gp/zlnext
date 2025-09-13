@@ -20,8 +20,8 @@ const gamesData = [
     {
         title: "Space Marine VR",
         slug: "space-marine-vr",
-        imageSrc: "/game-space-marine.jpg",
-        heroImageSrc: "/game-hero-space-marine.png", // New wide image for featured section
+        imageSrc: "/game-space-marine.webp",
+        heroImageSrc: "/game-hero-space-marine.webp", // New wide image for featured section
         description: "Step into the ceramite boots of an elite Space Marine and face relentless Tyranid hordes in a battle for humanity's survival.",
         tagline: "For the Emperor!",
         genre: "Sci-Fi Action",
@@ -32,7 +32,7 @@ const gamesData = [
     {
         title: "Outbreak",
         slug: "outbreak",
-        imageSrc: "/game-outbreak.png",
+        imageSrc: "/game-outbreak.webp",
         description: "A deadly virus is ravaging humanity. Your squad is the last hope to find a cure in this intense cooperative survival shooter.",
         tagline: "Survive the Horde",
         genre: "Zombie Survival",
@@ -43,7 +43,7 @@ const gamesData = [
     {
         title: "Far Cry VR",
         slug: "far-cry-vr",
-        imageSrc: "/game-far-cry-vr.jpg",
+        imageSrc: "/game-far-cry-vr.webp",
         description: "Escape the clutches of Vaas and his pirates in this VR adventure inspired by Far Cry 3. A tropical paradise becomes a fight for your life.",
         tagline: "Enter the Insanity",
         genre: "Action Adventure",
@@ -54,7 +54,7 @@ const gamesData = [
     {
         title: "Singularity",
         slug: "singularity",
-        imageSrc: "/game-singularity.jpg",
+        imageSrc: "/game-singularity.webp",
         description: "Battle rogue AI and killer robots aboard a secret military space station. A futuristic sci-fi shooter with zero-gravity sections.",
         tagline: "Defy the Machines",
         genre: "Sci-Fi Shooter",
@@ -65,7 +65,7 @@ const gamesData = [
     {
         title: "Sol Raiders",
         slug: "sol-raiders",
-        imageSrc: "/game-sol-raiders.jpg",
+        imageSrc: "/game-sol-raiders.webp",
         description: "The first VR esports title. Split into two teams and battle it out in this futuristic player-vs-player competition for control of the last resources.",
         tagline: "Compete for Glory",
         genre: "PvP Esports",
@@ -76,7 +76,7 @@ const gamesData = [
     {
         title: "Undead Arena",
         slug: "undead-arena",
-        imageSrc: "/game-undead-arena.jpg",
+        imageSrc: "/game-undead-arena.webp",
         description: "Compete in a post-apocalyptic game show where you and your friends take on waves of zombies. It's kill or be killed for fame and glory!",
         tagline: "Showtime, Survivors",
         genre: "Zombie Action",
@@ -87,7 +87,7 @@ const gamesData = [
     {
         title: "Engineerium",
         slug: "engineerium",
-        imageSrc: "/game-engineerium.jpg",
+        imageSrc: "/game-engineerium.webp",
         description: "Walk among flying whales and colourful creatures in a mind-bending, gravity-defying world. A non-combat puzzle adventure for all ages.",
         tagline: "Defy Gravity",
         genre: "Fantasy Puzzle",
@@ -124,7 +124,7 @@ export default function GamesPage() {
                 <section className="relative flex min-h-[80vh] items-center text-white overflow-hidden">
                     <div className="absolute inset-0 z-0">
                         <Image
-                            src={featuredGame.heroImageSrc ?? "/background.jpg"}
+                            src={featuredGame.heroImageSrc ?? "/background.webp"}
                             alt={`Cinematic hero image for the VR game ${featuredGame.title}`}
                             layout="fill"
                             objectFit="cover"

@@ -24,7 +24,7 @@ export default function Header() {
       <div className="flex h-20 items-center justify-between">
         <Link href="/" className="flex items-center">
           <Image
-            src="/ZL-W.png"
+            src="/ZL-W.webp"
             alt="Zero Latency Webster Logo"
             width={66}
             height={50}

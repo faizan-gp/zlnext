@@ -19,7 +19,7 @@ export const metadata: Metadata = {
         type: "website",
         images: [
             {
-                url: "https://zlwebster.com/og-singularity.jpg", // Replace with actual game OG image
+                url: "https://zlwebster.com/og-singularity.webp", // Replace with actual game OG image
                 width: 1200,
                 height: 630,
                 alt: "A team of players in futuristic gear battles robots inside a high-tech space station.",
@@ -62,7 +62,7 @@ export default function SingularityPage() {
                 <section className="relative min-h-[90vh] flex items-center justify-center text-center py-20 lg:py-0">
                     <div className="absolute inset-0 z-0">
                         <Image
-                            src="/singularity-hero-bg.jpg"
+                            src="/singularity-hero-bg.webp"
                             alt="A vast, empty hangar bay of a futuristic space station."
                             layout="fill"
                             objectFit="cover"
@@ -115,7 +115,7 @@ export default function SingularityPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 lg:h-[32rem] rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/singularity-station-exterior.jpg" alt="A secret military space station floating silently in the depths of space." layout="fill" objectFit="cover" />
+                                <Image src="/singularity-station-exterior.webp" alt="A secret military space station floating silently in the depths of space." layout="fill" objectFit="cover" />
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h2 className="text-4xl font-poppins font-bold text-white">MAN VS <span className="text-stroke-blue">MACHINE</span></h2>
@@ -140,19 +140,19 @@ export default function SingularityPage() {
                             </p>
                         </div>
                         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                            <VisualFeatureCard imgSrc="/singularity-scatter.jpg" imgAlt="A weapon firing a wide spray of energy pellets." title="Scatter">
+                            <VisualFeatureCard imgSrc="/singularity-scatter.webp" imgAlt="A weapon firing a wide spray of energy pellets." title="Scatter">
                                 Perfect for crowd control. The Scatter mode allows you to hit multiple drone targets at once.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/singularity-beam.jpg" imgAlt="A focused, powerful laser beam weapon." title="Beam">
+                            <VisualFeatureCard imgSrc="/singularity-beam.webp" imgAlt="A focused, powerful laser beam weapon." title="Beam">
                                 Need to punch through armor? The Beam will penetrate even the toughest defenses of hulking robots.
                             </VisualFeatureCard>
-                            <VisualFeatureCard imgSrc="/singularity-pulse.jpg" imgAlt="A rapid-fire plasma rifle in action." title="Pulse Rifle">
+                            <VisualFeatureCard imgSrc="/singularity-pulse.webp" imgAlt="A rapid-fire plasma rifle in action." title="Pulse Rifle">
                                 Your reliable, rapid-fire primary weapon. The Pulse Rifle will keep you alert to incoming threats.
                             </VisualFeatureCard>
                         </div>
                         <div className="mt-12 grid lg:grid-cols-2 gap-12 items-center bg-black/30 p-8 rounded-lg">
                             <div className="relative h-72 rounded-lg overflow-hidden">
-                                <Image src="/singularity-shield.jpg" alt="A glowing blue energy shield deflecting laser fire." layout="fill" objectFit="cover" />
+                                <Image src="/singularity-shield.webp" alt="A glowing blue energy shield deflecting laser fire." layout="fill" objectFit="cover" />
                             </div>
                             <div className="prose prose-invert max-w-none text-center lg:text-left">
                                 <Shield size={40} className="mx-auto lg:mx-0 text-cyan-400 mb-4" />
@@ -179,7 +179,7 @@ export default function SingularityPage() {
                                 </p>
                             </div>
                             <div className="relative h-96 lg:h-[32rem] rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/singularity-zerog.jpg" alt="Players floating in a zero-gravity chamber inside the space station." layout="fill" objectFit="cover" />
+                                <Image src="/singularity-zerog.webp" alt="Players floating in a zero-gravity chamber inside the space station." layout="fill" objectFit="cover" />
                             </div>
                         </div>
                     </div>
@@ -190,7 +190,7 @@ export default function SingularityPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 rounded-lg overflow-hidden shadow-2xl">
-                                <Image src="/singularity-team-playing.jpg" alt="A team of colleagues strategizing during their Singularity VR session." layout="fill" objectFit="cover" />
+                                <Image src="/singularity-team-playing.webp" alt="A team of colleagues strategizing during their Singularity VR session." layout="fill" objectFit="cover" />
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h2 className="text-3xl font-poppins text-white font-black sm:text-4xl">WHO IS THIS <span className="text-stroke-blue">MISSION FOR?</span></h2>

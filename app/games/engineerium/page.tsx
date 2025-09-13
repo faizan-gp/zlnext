@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://zlwebster.com/og-engineerium.jpg", // replace with your OG image
+        url: "https://zlwebster.com/og-engineerium.webp", // replace with your OG image
         width: 1200,
         height: 630,
         alt:
@@ -71,7 +71,7 @@ export default function EngineeriumPage() {
         <section className="relative min-h-[90vh] flex items-center justify-center text-center py-20 lg:py-0">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/engineerium-hero-bg.jpg"
+              src="/engineerium-hero-bg.webp"
               alt="A serene alien skyline with floating islands and ancient structures."
               layout="fill"
               objectFit="cover"
@@ -131,7 +131,7 @@ export default function EngineeriumPage() {
 
             <div className="space-y-8">
               <VisualFeatureCard
-                imgSrc="/engineerium-intro.jpg"
+                imgSrc="/engineerium-intro.webp"
                 imgAlt="Floating walkways weave between sky islands and shimmering machinery."
                 title="Discover a Place That Bends Reality"
               >
@@ -142,7 +142,7 @@ export default function EngineeriumPage() {
 
               <div className="grid md:grid-cols-2 gap-8">
                 <VisualFeatureCard
-                  imgSrc="/engineerium-upside.png"
+                  imgSrc="/engineerium-upside.webp"
                   imgAlt="Players strolling along a curving path that flips orientation mid-walk."
                   title="Turn the World Upside Down"
                 >
@@ -151,7 +151,7 @@ export default function EngineeriumPage() {
                 </VisualFeatureCard>
 
                 <VisualFeatureCard
-                  imgSrc="/engineerium-curiosity.jpg"
+                  imgSrc="/engineerium-curiosity.webp"
                   imgAlt="Technicolor skies with gentle creatures drifting past."
                   title="Embrace Your Curiosity"
                 >
@@ -169,7 +169,7 @@ export default function EngineeriumPage() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/engineerium-puzzles.png"
+                  src="/engineerium-puzzles.webp"
                   alt="Glowing symbols, rotating platforms, and paths that shift as puzzles are solved."
                   layout="fill"
                   objectFit="cover"
@@ -202,7 +202,7 @@ export default function EngineeriumPage() {
               </div>
               <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
                 <Image
-                  src="/engineerium-scenery.jpg"
+                  src="/engineerium-scenery.webp"
                   alt="Players pausing on a floating platform to admire the sweeping view."
                   layout="fill"
                   objectFit="cover"
@@ -250,7 +250,7 @@ export default function EngineeriumPage() {
               </div>
               <div className="relative h-80 rounded-lg overflow-hidden shadow-2xl">
                 <Image
-                  src="/engineerium-group.jpg"
+                  src="/engineerium-group.webp"
                   alt="Friends smiling and pointing out landmarks in Engineerium’s sky islands."
                   layout="fill"
                   objectFit="cover"
@@ -264,7 +264,7 @@ export default function EngineeriumPage() {
         <section className="relative py-32 sm:py-40 text-center bg-gray-900/50">
           <div className="absolute inset-0 z-0">
             <Image
-              src="/engineerium-final.jpg"
+              src="/engineerium-final.webp"
               alt="Golden hour light across a chain of floating islands and arches."
               layout="fill"
               objectFit="cover"
