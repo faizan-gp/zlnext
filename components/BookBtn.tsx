@@ -22,7 +22,28 @@ export default function BookGameButton({
   return (
     <button
       onClick={handleClick}
-      className={`btn btn-outline rounded-4xl mt-4 text-xl p-6 border-[#00bcd4] ${className}`}
+      className={`
+        inline-flex items-center justify-center
+        bg-transparent
+        hover:bg-[#00bcd4]
+        text-[#00bcd4]
+        hover:text-white
+        font-semibold
+        p-4
+        mt-4
+        border-2
+        border-[#00bcd4]
+        text-xl
+        rounded-full
+        transition-colors
+        duration-200
+        ease-in-out
+        focus:outline-none
+        focus:ring-2
+        focus:ring-offset-2
+        focus:ring-[#00bcd4]
+        ${className}
+      `}
     >
       {label}
     </button>
