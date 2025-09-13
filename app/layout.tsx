@@ -121,7 +121,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* <head>
+      <head>
         {GA_ID && (
           <>
             <Script
@@ -139,7 +139,7 @@ export default function RootLayout({
             </Script>
           </>
         )}
-      </head> */}
+      </head>
       <body className={`${poppins.variable} ${montserrat.variable} antialiased`}>
         <a href="#main-content" className="sr-only focus:not-sr-only">Skip to content</a>
         <Suspense><AnalyticsClient /></Suspense>
