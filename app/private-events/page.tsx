@@ -6,18 +6,18 @@ import Link from "next/link";
 import { PartyPopper, Briefcase, UserCheck, CheckCircle } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Private Events at Zero Latency Webster – Immersive VR Parties in Houston",
+    title: "Private Events and Immersive Parties | Zero Latency VR Houston, Webster",
     description: "Host an unforgettable private party, corporate team building event, or bachelor party at Zero Latency Webster. Our Houston-area venue offers exclusive free-roam VR adventures, a private arena, and on-site dining for the ultimate group experience.",
     alternates: {
         canonical: "https://zlwebster.com/private-events",
     },
     openGraph: {
-        title: "Unforgettable Private VR Events in Houston | Zero Latency Webster",
+        title: "Private Events and Immersive Parties | Zero Latency VR Houston, Webster",
         description: "Looking for a unique venue? Book a private VR party, team building event, or bachelor party for an experience your group will never forget.",
         url: "https://zlwebster.com/private-events",
         images: [
             {
-                url: "https://zlwebster.com/og-private-events.webp",
+                url: "https://zlwebster.com/OG.jpg", // Replace with actual OG image
                 width: 1200,
                 height: 630,
                 alt: "A group of people celebrating at a private VR party at Zero Latency Webster.",

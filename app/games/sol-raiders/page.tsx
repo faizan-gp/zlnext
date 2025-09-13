@@ -5,23 +5,22 @@ import Image from "next/image";
 import Link from "next/link";
 import BookGameButton from "@/components/BookBtn";
 import { Flag, Trophy, UserCog, Zap } from "lucide-react";
-
 export const metadata: Metadata = {
-  title: "Sol Raiders – Team PvP VR Battle in Houston | Zero Latency",
+  title: "Sol Raiders - Team PvP VR Battle | Zero Latency VR Houston, Webster",
   description:
-    "Compete in Sol Raiders, a team-vs-team VR shootout at Zero Latency Houston. Two squads of up to 4 each battle across futuristic arenas in a quest for a precious energy source. Cover your teammates, take out opponents, and capture objectives in this eSports-style free-roam VR game. Sol Raiders delivers high-adrenaline PvP action – rally your crew and prove who’s the best in Houston’s ultimate VR showdown!",
+    "Compete in Sol Raiders, a team-vs-team VR shootout at Zero Latency Houston, Webster. Two squads of up to 4 each battle across futuristic arenas in a quest for a precious energy source. Cover your teammates, take out opponents, and capture objectives in this eSports-style free-roam VR game. Sol Raiders delivers high-adrenaline PvP action – rally your crew and prove who’s the best in Houston’s ultimate VR showdown!",
   alternates: {
     canonical: "https://zlwebster.com/games/sol-raiders",
   },
   openGraph: {
-    title: "Sol Raiders – Team PvP VR Battle in Houston | Zero Latency",
+    title: "Sol Raiders - Team PvP VR Battle | Zero Latency VR Houston, Webster",
     description:
       "Two squads. One objective. Compete in an esports-style PvP VR arena for up to 8 players.",
     url: "https://zlwebster.com/games/sol-raiders",
     type: "website",
     images: [
       {
-        url: "https://zlwebster.com/og-sol-raiders.webp", // replace with your OG image
+        url: "https://zlwebster.com/OG.jpg", // replace with your OG image
         width: 1200,
         height: 630,
         alt: "Sol Raiders PvP teams clash in a futuristic VR arena.",

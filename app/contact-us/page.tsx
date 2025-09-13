@@ -6,13 +6,13 @@ import Link from "next/link";
 import { MapPin, Clock, Phone, Facebook, Twitter, Instagram, Youtube } from "lucide-react";
 
 export const metadata: Metadata = {
-    title: "Contact Us – Zero Latency VR Houston | Location, Hours & Booking Info",
-    description: "Find Zero Latency Houston&apos;s location, operating hours, and contact details. Reach out to us for questions about private events, parties, or your booking. Get in touch with our team in Webster, TX today!",
+    title: "Contact Us - Location, Hours & Booking Info | Zero Latency VR Houston, Webster",
+    description: "Find Zero Latency VR Houston, Webster location, operating hours, and contact details. Reach out to us for questions about private events, parties, or your booking. Get in touch with our team in Webster, TX today!",
     alternates: {
         canonical: "https://zlwebster.com/contact",
     },
     openGraph: {
-        title: "Contact Us – Zero Latency Houston",
+        title: "Contact Us - Zero Latency Houston",
         description: "Get directions, hours, and contact info for the ultimate free-roam VR experience in Houston.",
         url: "https://zlwebster.com/contact",
     },

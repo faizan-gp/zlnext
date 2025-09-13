@@ -13,7 +13,6 @@ export const metadata: Metadata = {
     alternates: {
         canonical: "https://zlwebster.com/games",
     },
-    // ... OpenGraph metadata remains the same
 };
 
 const gamesData = [

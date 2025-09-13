@@ -7,7 +7,7 @@ import BookGameButton from "@/components/BookBtn";
 
 // Metadata remains the same
 export const metadata: Metadata = {
-    title: "Space Marine VR – Warhammer 40,000 Experience in Houston | Zero Latency",
+    title: "Space Marine VR – Warhammer 40,000 Experience | Zero Latency VR Houston, Webster",
     description: "See what it&apos;s like to battle Tyranid swarms in the Hive City of Fervastium. This image-rich guide shows you the weapons, tactics, and worlds of our most intense free-roam VR game.",
     // ... other metadata fields
 };

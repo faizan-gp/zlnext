@@ -8,13 +8,13 @@ import InteractiveVideoPlayer from "@/components/InteractiveVideoPlayer";
 
 // SEO Metadata for the page
 export const metadata: Metadata = {
-    title: "What to Expect at Zero Latency VR Houston – Your Free-Roam VR Experience Guide",
-    description: "New to VR? Learn what to expect at Zero Latency Houston: from check-in, gearing up with VR headsets, the game briefing, to the thrilling free-roam gameplay. No VR experience needed – we guide you every step for a safe and epic adventure.",
+    title: "What to Expect | Zero Latency VR Houston, Webster",
+    description: "New to VR? Learn what to expect at Zero Latency VR Houston, Webster: from check-in, gearing up with VR headsets, the game briefing, to the thrilling free-roam gameplay. No VR experience needed – we guide you every step for a safe and epic adventure.",
     alternates: {
         canonical: "https://zlwebster.com/what-to-expect",
     },
     openGraph: {
-        title: "What to Expect at Zero Latency VR Houston – Your Experience Guide",
+        title: "What to Expect | Zero Latency VR Houston, Webster",
         description: "From check-in to the final scoreboard, here's everything you need to know about your free-roam VR adventure at Zero Latency Webster.",
         url: "https://zlwebster.com/what-to-expect",
         type: "article",

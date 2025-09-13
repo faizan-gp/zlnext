@@ -7,9 +7,9 @@ import BookGameButton from "@/components/BookBtn";
 import { Eye, Puzzle, Recycle, Users } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Engineerium – Surreal Puzzle VR Adventure in Houston | Zero Latency",
+  title: "Engineerium – Surreal Puzzle VR Adventure | Zero Latency VR Houston, Webster",
   description:
-    "Enter the magical world of Engineerium, a family-friendly VR experience at Zero Latency Houston. Walk among floating islands and solve mind-bending puzzles in a beautiful alien realm – all in free-roam VR with no guns or gore. Perfect for first-timers, kids, and anyone who loves exploration and challenges. Defy gravity and discover the secrets of Engineerium – an immersive adventure unlike any other.",
+    "Enter the magical world of Engineerium, a family-friendly VR experience at Zero Latency VR Houston, Webster. Walk among floating islands and solve mind-bending puzzles in a beautiful alien realm – all in free-roam VR with no guns or gore. Perfect for first-timers, kids, and anyone who loves exploration and challenges. Defy gravity and discover the secrets of Engineerium – an immersive adventure unlike any other.",
   alternates: {
     canonical: "https://zlwebster.com/games/engineerium",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://zlwebster.com/og-engineerium.webp", // replace with your OG image
+        url: "https://zlwebster.com/OG.jpg", // replace with your OG image
         width: 1200,
         height: 630,
         alt:

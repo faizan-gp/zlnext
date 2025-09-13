@@ -7,21 +7,21 @@ import BookGameButton from "@/components/BookBtn";
 import { Skull, Swords, Users, Zap } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Undead Arena – Zombie Wave VR Shooter in Houston | Zero Latency",
+  title: "Undead Arena - Zombie Wave VR Shooter | Zero Latency VR Houston, Webster",
   description:
     "Step into Undead Arena, a post-apocalyptic game show where you battle zombies for fame! Only at Zero Latency Houston, this free-roam VR shooter pits up to 8 players against waves of undead in an arena packed with surprises. Compete for the high score and survive live on (virtual) TV. It’s gruesome, action-packed fun – do you have what it takes to be the champion of the Undead Arena?",
   alternates: {
     canonical: "https://zlwebster.com/games/undead-arena",
   },
   openGraph: {
-    title: "Undead Arena – Zombie Wave VR Shooter in Houston | Zero Latency",
+    title: "Undead Arena - Zombie Wave VR Shooter | Zero Latency VR Houston, Webster",
     description:
       "Contestants wanted! Battle waves of zombies for glory in a post-apocalyptic game show. Up to 8 players. Free-roam VR.",
     url: "https://zlwebster.com/games/undead-arena",
     type: "website",
     images: [
       {
-        url: "https://zlwebster.com/og-undead-arena.webp", // replace with your OG image
+        url: "https://zlwebster.com/OG.jpg", // replace with your OG image
         width: 1200,
         height: 630,
         alt: "Undead Arena contestants fighting zombies under neon spotlights.",

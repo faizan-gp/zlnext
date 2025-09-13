@@ -7,19 +7,19 @@ import { Users, Biohazard, Crosshair, Rocket } from "lucide-react";
 import BookGameButton from "@/components/BookBtn";
 
 export const metadata: Metadata = {
-    title: "Outbreak – Zombie Survival VR in Houston | Zero Latency",
-    description: "Survive a zombie apocalypse in Outbreak, a heart-pounding free-roam VR game at Zero Latency Houston. Team up with up to 8 survivors, fight through undead-infested streets, and uncover the source of the outbreak. Intense action, lifelike zombies, and co-op gameplay make Outbreak a must-play for horror fans. Can your team make it out alive?",
+    title: "Outbreak - Zombie Survival VR | Zero Latency VR Houston, Webster",
+    description: "Survive a zombie apocalypse in Outbreak, a heart-pounding free-roam VR game at Zero Latency VR Houston, Webster. Team up with up to 8 survivors, fight through undead-infested streets, and uncover the source of the outbreak. Intense action, lifelike zombies, and co-op gameplay make Outbreak a must-play for horror fans. Can your team make it out alive?",
     alternates: {
         canonical: "https://zlwebster.com/games/outbreak",
     },
     openGraph: {
-        title: "Outbreak – Zombie Survival VR in Houston | Zero Latency",
+        title: "Outbreak - Zombie Survival VR | Zero Latency VR Houston, Webster",
         description: "Team up to fight hordes of the undead in a hyper-realistic free-roam VR experience.",
         url: "https://zlwebster.com/games/outbreak",
         type: "website",
         images: [
             {
-                url: "https://zlwebster.com/og-outbreak.webp", // Replace with actual game OG image
+                url: "https://zlwebster.com/OG.jpg", // Replace with actual game OG image
                 width: 1200,
                 height: 630,
                 alt: "A squad of players stands back-to-back against a zombie horde in the Outbreak VR game.",
