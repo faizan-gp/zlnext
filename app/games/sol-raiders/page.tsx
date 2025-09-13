@@ -52,6 +52,7 @@ const VisualFeatureCard = ({
           layout="fill"
           objectFit="cover"
           className="transition-transform duration-500 ease-in-out group-hover:scale-105"
+          priority
         />
       </div>
     </div>
@@ -212,6 +213,7 @@ export default function SolRaidersPage() {
                   alt="Players escorting the Sol core through fire under cover."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
               <div className="prose prose-invert max-w-none">
@@ -302,6 +304,7 @@ export default function SolRaidersPage() {
                   alt="A Girl Raiding SOL"
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
             </div>

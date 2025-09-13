@@ -35,6 +35,7 @@ export default function SpaceMarineView() {
                     alt="An elite Space Marine warrior ready for battle."
                     layout="fill"
                     objectFit="cover"
+                    priority
                 />
             </div>
         </section>
@@ -48,6 +49,7 @@ export default function SpaceMarineView() {
                     layout="fill"
                     objectFit="cover"
                     className="opacity-10"
+                    priority
                 />
             </div>
             <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
@@ -71,8 +73,8 @@ export default function SpaceMarineView() {
         <section className="py-20 sm:py-32">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 grid lg:grid-cols-2 gap-12 items-center">
                 <div className="grid grid-cols-2 gap-4">
-                    <Image src="https://placehold.co/600x800/000f13/00BCD4?text=Action+1" alt="A Space Marine firing their weapon" width={600} height={800} className="rounded-lg object-cover w-full h-full" />
-                    <Image src="https://placehold.co/600x800/000f13/00BCD4?text=Action+2" alt="An alien Tyranid creature" width={600} height={800} className="rounded-lg object-cover w-full h-full mt-12" />
+                    <Image src="https://placehold.co/600x800/000f13/00BCD4?text=Action+1" alt="A Space Marine firing their weapon" width={600} height={800} className="rounded-lg object-cover w-full h-full" priority/>
+                    <Image src="https://placehold.co/600x800/000f13/00BCD4?text=Action+2" alt="An alien Tyranid creature" width={600} height={800} className="rounded-lg object-cover w-full h-full mt-12" priority/>
                 </div>
                 <div className="max-w-xl lg:ml-auto">
                     <h2 className="font-poppins text-5xl sm:text-7xl font-black uppercase">

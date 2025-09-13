@@ -88,7 +88,7 @@ export default function Review() {
                                 <div className="flex text-yellow-400">{Array(5).fill(0).map((_, i) => <Star key={i} size={16} fill="currentColor" />)}</div>
                                 <span className="text-gray-400 text-sm">69 reviews</span>
                             </div>
-                            <Image src="/Google.svg" alt="TripAdvisor" width={100} height={20} className="ml-auto mt-4" />
+                            <Image src="/Google.svg" alt="TripAdvisor" width={100} height={20} className="ml-auto mt-4" priority/>
                         </div>
 
                     </div>
@@ -107,6 +107,7 @@ export default function Review() {
                                                     width={500}
                                                     height={281}
                                                     className="rounded-t-2xl object-cover w-full h-full"
+                                                    priority
                                                 />
                                             </div>
                                         )}

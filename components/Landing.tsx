@@ -69,6 +69,7 @@ export default function Landing() {
           width={400}
           height={400}
           className="mx-auto w-[50%] "
+          priority
         />
       </div>
     </div>

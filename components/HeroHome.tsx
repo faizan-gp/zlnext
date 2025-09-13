@@ -145,7 +145,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                                         src={exp.img}
                                         alt={exp.title}
                                         fill
-                                        priority={false}
+                                        priority
                                         className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 md:group-hover:scale-110"
                                     />
 
@@ -189,6 +189,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                                     alt="Birthday Party"
                                     layout="fill"
                                     objectFit="cover"
+                                    priority
                                 />
                             </div>
                             <div className="absolute bottom-0 left-1/4 w-3/5 aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl transform rotate-3 transition-all duration-500 group-hover:rotate-0 group-hover:scale-105 border-4 border-gray-800 hover:!border-cyan-500 z-20">
@@ -197,6 +198,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                                     alt="Corporate Team Building Event"
                                     layout="fill"
                                     objectFit="cover"
+                                    priority
                                 />
                             </div>
                             <div className="absolute top-1/4 right-0 w-3/5 aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl transform rotate-8 transition-all duration-500 group-hover:rotate-0 group-hover:scale-105 border-4 border-gray-800 hover:!border-cyan-500 z-10">
@@ -205,6 +207,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                                     alt="Bachelor Party"
                                     layout="fill"
                                     objectFit="cover"
+                                    priority
                                 />
                             </div>
                         </div>
@@ -265,6 +268,7 @@ export default function HeroHome({ faqs }: FaqProps) {
                         width={400}
                         height={400}
                         className="mx-auto w-[100%] sm:w-[60%] "
+                        priority
                     />
                 </section>
             </div>

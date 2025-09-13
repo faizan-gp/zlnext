@@ -53,6 +53,7 @@ const VisualFeatureCard = ({
           layout="fill"
           objectFit="cover"
           className="transition-transform duration-500 ease-in-out group-hover:scale-105"
+          priority
         />
       </div>
     </div>
@@ -179,6 +180,7 @@ export default function FarCryVRPage() {
                   alt="Up to eight players coordinating in a firefight against pirates."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
               <div className="prose prose-invert max-w-none">
@@ -211,6 +213,7 @@ export default function FarCryVRPage() {
                   alt="Glowing mushrooms light a narrow cave passage as players advance."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
             </div>
@@ -225,6 +228,7 @@ export default function FarCryVRPage() {
                   alt="A furious firefight in the heart of the jungle near ancient ruins."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
               <div className="prose prose-invert max-w-none">
@@ -302,6 +306,7 @@ export default function FarCryVRPage() {
               layout="fill"
               objectFit="cover"
               className="opacity-25"
+              priority
             />
           </div>
           <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6">

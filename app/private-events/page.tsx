@@ -66,7 +66,7 @@ export default function PrivateEventsPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/venue-waiting-area.jpeg" alt="The modern and comfortable waiting area and lounge at Zero Latency Webster." layout="fill" objectFit="cover" />
+                                <Image src="/venue-waiting-area.jpeg" alt="The modern and comfortable waiting area and lounge at Zero Latency Webster." layout="fill" objectFit="cover" priority/>
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h2 className="text-4xl font-poppins font-bold text-white">A VENUE THAT <span className="text-stroke-blue">TRULY STANDS OUT</span></h2>
@@ -97,7 +97,7 @@ export default function PrivateEventsPage() {
                                     </ul>
                                 </div>
                                 <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                    <Image src="/venue-birthday-party.webp" alt="A birthday party group celebrating in the café area at Zero Latency Webster." layout="fill" objectFit="cover" />
+                                    <Image src="/venue-birthday-party.webp" alt="A birthday party group celebrating in the café area at Zero Latency Webster." layout="fill" objectFit="cover" priority/>
                                 </div>
                             </div>
                         </div>
@@ -108,7 +108,7 @@ export default function PrivateEventsPage() {
                         <div className="mx-auto max-w-6xl px-4 sm:px-6">
                             <div className="grid lg:grid-cols-2 gap-12 items-center">
                                  <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                    <Image src="/venue-team-building.webp" alt="A corporate team engaged in a VR team building exercise." layout="fill" objectFit="cover" />
+                                    <Image src="/venue-team-building.webp" alt="A corporate team engaged in a VR team building exercise." layout="fill" objectFit="cover" priority/>
                                 </div>
                                 <div className="prose prose-invert max-w-none">
                                     <Briefcase size={40} className="text-cyan-400 mb-4" />
@@ -143,7 +143,7 @@ export default function PrivateEventsPage() {
                                     </ul>
                                 </div>
                                 <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                    <Image src="/venue-bachelor-party.webp" alt="A group of friends laughing and high-fiving during a bachelor party VR session." layout="fill" objectFit="cover" />
+                                    <Image src="/venue-bachelor-party.webp" alt="A group of friends laughing and high-fiving during a bachelor party VR session." layout="fill" objectFit="cover" priority/>
                                 </div>
                             </div>
                         </div>
@@ -159,21 +159,21 @@ export default function PrivateEventsPage() {
                         </p>
                         <div className="mt-16 grid md:grid-cols-3 gap-8">
                             <div className="rounded-lg overflow-hidden border border-gray-800">
-                                <Image src="/venue-arena.webp" alt="The expansive, open-plan VR arena at Zero Latency Webster." width={800} height={600} className="object-cover"/>
+                                <Image src="/venue-arena.webp" alt="The expansive, open-plan VR arena at Zero Latency Webster." width={800} height={600} className="object-cover" priority/>
                                 <div className="p-6 bg-gray-900">
                                     <h3 className="text-xl font-bold font-poppins">Massive Free-Roam Arena</h3>
                                     <p className="mt-2 text-sm text-gray-400">A huge, dedicated space for untethered, wireless VR action for up to 8 players at once.</p>
                                 </div>
                             </div>
                             <div className="rounded-lg overflow-hidden border border-gray-800">
-                                <Image src="/venue-dining-cafe.jpeg" alt="The on-site café at Zero Latency, showing pizzas and drinks." width={800} height={600} className="object-cover"/>
+                                <Image src="/venue-dining_cafe.jpeg" alt="The on-site café at Zero Latency, showing pizzas and drinks." width={800} height={600} className="object-cover" priority/>
                                 <div className="p-6 bg-gray-900">
                                     <h3 className="text-xl font-bold font-poppins">On-Site Dining & Café</h3>
                                     <p className="mt-2 text-sm text-gray-400">Refuel between games with Fries, burgers, wraps, soft drinks, and more at our convenient café.</p>
                                 </div>
                             </div>
                             <div className="rounded-lg overflow-hidden border border-gray-800">
-                                <Image src="/venue-lounge-area.jpeg" alt="The comfortable lounge and waiting area with futuristic decor." width={800} height={600} className="object-cover"/>
+                                <Image src="/venue-lounge-area.jpeg" alt="The comfortable lounge and waiting area with futuristic decor." width={800} height={600} className="object-cover" priority/>
                                 <div className="p-6 bg-gray-900">
                                     <h3 className="text-xl font-bold font-poppins">Lounge & Waiting Area</h3>
                                     <p className="mt-2 text-sm text-gray-400">Relax, strategize with your team, or watch others play on our spectator screens while you wait for your turn.</p>

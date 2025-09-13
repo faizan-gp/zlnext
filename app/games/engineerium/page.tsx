@@ -53,6 +53,7 @@ const VisualFeatureCard = ({
           layout="fill"
           objectFit="cover"
           className="transition-transform duration-500 ease-in-out group-hover:scale-105"
+          priority
         />
       </div>
     </div>
@@ -173,6 +174,7 @@ export default function EngineeriumPage() {
                   alt="Glowing symbols, rotating platforms, and paths that shift as puzzles are solved."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
               <div className="prose prose-invert max-w-none">
@@ -206,6 +208,7 @@ export default function EngineeriumPage() {
                   alt="Players pausing on a floating platform to admire the sweeping view."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
             </div>
@@ -254,6 +257,7 @@ export default function EngineeriumPage() {
                   alt="Friends smiling and pointing out landmarks in Engineerium’s sky islands."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
             </div>
@@ -269,6 +273,7 @@ export default function EngineeriumPage() {
               layout="fill"
               objectFit="cover"
               className="opacity-25"
+              priority
             />
           </div>
           <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6">

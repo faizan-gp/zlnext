@@ -52,6 +52,7 @@ const VisualFeatureCard = ({
           layout="fill"
           objectFit="cover"
           className="transition-transform duration-500 ease-in-out group-hover:scale-105"
+          priority
         />
       </div>
     </div>
@@ -175,6 +176,7 @@ export default function UndeadArenaPage() {
                   alt="Contestants holding a chokepoint as tougher zombie waves approach."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
               <div className="prose prose-invert max-w-none">
@@ -208,6 +210,7 @@ export default function UndeadArenaPage() {
                   alt="Players activating neon trap signage that detonates barrels around zombies."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
             </div>
@@ -222,6 +225,7 @@ export default function UndeadArenaPage() {
                   alt="Moving bridges and platforms opening new angles inside the arena."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
               <div className="prose prose-invert max-w-none">
@@ -305,6 +309,7 @@ export default function UndeadArenaPage() {
                   alt="Friends high-fiving after surviving the final wave."
                   layout="fill"
                   objectFit="cover"
+                  priority
                 />
               </div>
             </div>

@@ -55,7 +55,7 @@ export default function InteractiveVideoPlayer({ videoSrc, thumbnailSrc, thumbna
                         layout="fill"
                         objectFit="cover"
                         className="z-0"
-                        priority // Prioritize loading the thumbnail as it's visible on load
+                        priority
                     />
                     {/* Play Button Overlay */}
                     <div className="z-10 bg-cyan-500/80 p-5 rounded-full backdrop-blur-sm hover:bg-cyan-500 scale-100 hover:scale-110 transition-all duration-300">

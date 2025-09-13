@@ -165,6 +165,7 @@ export default function ExperiencesPage() {
                                         width={1000}
                                         height={750}
                                         className="w-full h-full object-cover"
+                                        priority
                                     />
                                 </div>
                             </div>

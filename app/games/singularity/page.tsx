@@ -40,6 +40,7 @@ const VisualFeatureCard = ({ imgSrc, imgAlt, title, children }: { imgSrc: string
                     layout="fill"
                     objectFit="cover"
                     className="transition-transform duration-500 ease-in-out group-hover:scale-105"
+                    priority
                 />
             </div>
         </div>
@@ -115,7 +116,7 @@ export default function SingularityPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 lg:h-[32rem] rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/singularity-station-exterior.webp" alt="A secret military space station floating silently in the depths of space." layout="fill" objectFit="cover" />
+                                <Image src="/singularity-station-exterior.webp" alt="A secret military space station floating silently in the depths of space." layout="fill" objectFit="cover" priority />
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h2 className="text-4xl font-poppins font-bold text-white">MAN VS <span className="text-stroke-blue">MACHINE</span></h2>
@@ -152,7 +153,7 @@ export default function SingularityPage() {
                         </div>
                         <div className="mt-12 grid lg:grid-cols-2 gap-12 items-center bg-black/30 p-8 rounded-lg">
                             <div className="relative h-72 rounded-lg overflow-hidden">
-                                <Image src="/singularity-shield.webp" alt="A glowing blue energy shield deflecting laser fire." layout="fill" objectFit="cover" />
+                                <Image src="/singularity-shield.webp" alt="A glowing blue energy shield deflecting laser fire." layout="fill" objectFit="cover" priority />
                             </div>
                             <div className="prose prose-invert max-w-none text-center lg:text-left">
                                 <Shield size={40} className="mx-auto lg:mx-0 text-cyan-400 mb-4" />
@@ -179,7 +180,7 @@ export default function SingularityPage() {
                                 </p>
                             </div>
                             <div className="relative h-96 lg:h-[32rem] rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/singularity-zerog.webp" alt="Players floating in a zero-gravity chamber inside the space station." layout="fill" objectFit="cover" />
+                                <Image src="/singularity-zerog.webp" alt="Players floating in a zero-gravity chamber inside the space station." layout="fill" objectFit="cover" priority/>
                             </div>
                         </div>
                     </div>
@@ -190,7 +191,7 @@ export default function SingularityPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 rounded-lg overflow-hidden shadow-2xl">
-                                <Image src="/singularity-team-playing.webp" alt="A team of colleagues strategizing during their Singularity VR session." layout="fill" objectFit="cover" />
+                                <Image src="/singularity-team-playing.webp" alt="A team of colleagues strategizing during their Singularity VR session." layout="fill" objectFit="cover" priority />
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h2 className="text-3xl font-poppins text-white font-black sm:text-4xl">WHO IS THIS <span className="text-stroke-blue">MISSION FOR?</span></h2>

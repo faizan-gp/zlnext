@@ -28,6 +28,7 @@ const VisualFeatureCard = ({ imgSrc, imgAlt, title, children }: { imgSrc: string
                 layout="fill"
                 objectFit="cover"
                 className="z-0 transition-transform duration-500 ease-in-out group-hover:scale-110"
+                priority
             />
 
             {/* Gradient Overlay */}
@@ -127,7 +128,7 @@ export default function SpaceMarinePage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 lg:h-[32rem] rounded-xl overflow-hidden shadow-2xl border-2 border-cyan-800/50">
-                                <Image src="/player-vr-weapon.webp" alt="Space Marines aiming a futuristic rifle at an alien horde." layout="fill" objectFit="cover" />
+                                <Image src="/player-vr-weapon.webp" alt="Space Marines aiming a futuristic rifle at an alien horde." layout="fill" objectFit="cover" priority/>
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h2 className="text-4xl font-poppins font-bold sm:text-5xl">UNLEASH YOUR <span className="text-stroke-blue">INNER WARRIOR</span></h2>
@@ -179,7 +180,7 @@ export default function SpaceMarinePage() {
                             <div className="relative rounded-lg overflow-hidden group border-2 border-cyan-500 transform lg:scale-105 shadow-2xl shadow-cyan-900/50">
                                 <div className="w-full" style={{ paddingTop: '100%' }}></div>
                                 <div className="absolute inset-0">
-                                    <Image src="/threat-lethal.webp" alt="A desperate last stand against an overwhelming number of aliens." layout="fill" objectFit="cover" className="z-0 transition-transform duration-500 ease-in-out group-hover:scale-110" />
+                                    <Image src="/threat-lethal.webp" alt="A desperate last stand against an overwhelming number of aliens." layout="fill" objectFit="cover" className="z-0 transition-transform duration-500 ease-in-out group-hover:scale-110" priority/>
                                     <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/90 via-black/60 to-transparent"></div>
                                     <div className="absolute bottom-0 left-0 right-0 z-20 p-6" style={{ textShadow: '1px 1px 4px rgba(0,0,0,0.8)' }}>
                                         <p className="font-bold text-cyan-400 uppercase text-sm mb-1">ADVANCED CHALLENGE</p>
@@ -212,7 +213,7 @@ export default function SpaceMarinePage() {
                                 </div>
                             </div>
                             <div className="relative h-80 rounded-lg overflow-hidden shadow-2xl">
-                                <Image src="/warhammer-final-cta.webp" alt="A heroic, final shot of the Space Marine squad victorious." layout="fill" objectFit="cover" />
+                                <Image src="/warhammer-final-cta.webp" alt="A heroic, final shot of the Space Marine squad victorious." layout="fill" objectFit="cover" priority/>
                             </div>
                         </div>
                     </div>

@@ -165,6 +165,7 @@ export default function GamesPage() {
                                     alt={`Box art for ${featuredGame.title}`}
                                     width={500}
                                     height={700}
+                                    priority
                                     className="rounded-lg object-cover shadow-2xl shadow-cyan-500/20 transition-transform duration-300 hover:scale-105"
                                 />
                             </Link>
@@ -186,6 +187,7 @@ export default function GamesPage() {
                                     alt={`Thumbnail image for the VR game ${game.title}`}
                                     layout="fill"
                                     objectFit="cover"
+                                    priority
                                     className="absolute inset-0 z-0 transition-all duration-500 group-hover:scale-110 group-hover:brightness-50"
                                 />
                                 <div className="absolute inset-0 z-10 bg-gradient-to-t from-black/95 via-black/60 to-transparent"></div>

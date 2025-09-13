@@ -40,6 +40,7 @@ const VisualFeatureCard = ({ imgSrc, imgAlt, title, children }: { imgSrc: string
                     layout="fill"
                     objectFit="cover"
                     className="transition-transform duration-500 ease-in-out group-hover:scale-105"
+                    priority
                 />
             </div>
         </div>
@@ -140,7 +141,7 @@ export default function OutbreakPage() {
                     <div className="mx-auto max-w-6xl px-4 sm:px-6">
                         <div className="grid lg:grid-cols-2 gap-12 items-center">
                             <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/outbreak-sewers.webp" alt="Players navigating a dark, grimy sewer as zombies emerge from the shadows." layout="fill" objectFit="cover" />
+                                <Image src="/outbreak-sewers.webp" alt="Players navigating a dark, grimy sewer as zombies emerge from the shadows." layout="fill" objectFit="cover" priority/>
                             </div>
                             <div className="prose prose-invert max-w-none">
                                 <h3 className="text-3xl font-poppins font-bold text-white">ESCAPE THE <span className="text-stroke-blue">SEWERS</span></h3>
@@ -160,7 +161,7 @@ export default function OutbreakPage() {
                                 </p>
                             </div>
                             <div className="relative h-96 rounded-xl overflow-hidden shadow-2xl border-2 border-gray-700">
-                                <Image src="/outbreak-helicopter.webp" alt="View from inside a helicopter, looking down at a burning, zombie-infested city." layout="fill" objectFit="cover" />
+                                <Image src="/outbreak-helicopter.webp" alt="View from inside a helicopter, looking down at a burning, zombie-infested city." layout="fill" objectFit="cover" priority/>
                             </div>
                         </div>
                     </div>
@@ -201,6 +202,7 @@ export default function OutbreakPage() {
                             layout="fill"
                             objectFit="cover"
                             className="opacity-25"
+                            priority
                         />
                     </div>
                     <div className="relative z-10 mx-auto max-w-4xl px-4 sm:px-6">
@@ -227,7 +229,7 @@ export default function OutbreakPage() {
                                 </div>
                             </div>
                             <div className="relative h-80 rounded-lg overflow-hidden shadow-2xl">
-                                <Image src="/outbreak-group-fun.webp" alt="A group of friends laughing and high-fiving after their VR experience." layout="fill" objectFit="cover" />
+                                <Image src="/outbreak-group-fun.webp" alt="A group of friends laughing and high-fiving after their VR experience." layout="fill" objectFit="cover" priority/>
                             </div>
                         </div>
                     </div>

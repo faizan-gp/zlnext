@@ -168,6 +168,7 @@ export default function WhatToExpectPage() {
                                                 width={800}
                                                 height={450}
                                                 className="w-full h-full object-cover"
+                                                priority
                                             />
                                         </div>
                                     )}
