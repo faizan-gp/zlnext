@@ -1,9 +1,7 @@
-// src/app/what-to-expect/page.tsx
-
 import type { Metadata } from "next";
 import Image from "next/image";
 import { CheckCircle, Ticket, LogIn, Headset, Gamepad2, Trophy, UserCheck } from "lucide-react";
-import BookGameButton from "@/components/BookBtn"; // Assuming this is the path to your button
+import BookGameButton from "@/components/BookBtn";
 import InteractiveVideoPlayer from "@/components/InteractiveVideoPlayer";
 
 // SEO Metadata for the page
@@ -88,7 +86,7 @@ export default function WhatToExpectPage() {
                 {/* HERO SECTION */}
                 <section className="relative h-[60vh] flex items-center justify-center text-center">
                     <Image
-                        src="/background.webp" // A cool, abstract, or in-game background image
+                        src="/background.webp"
                         alt="A stunning visual from a Zero Latency VR game."
                         layout="fill"
                         objectFit="cover"
