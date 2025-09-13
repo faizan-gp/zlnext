@@ -23,7 +23,8 @@ export default function BookGameButton({
 
   return (
     <a
-    rel="external nofollow noopener noreferrer"
+      href={link}
+      rel="external nofollow noopener noreferrer"
       onClick={handleClick}
       className={`
         inline-flex items-center justify-center
